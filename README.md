@@ -1,5 +1,7 @@
 # Electric Camper Vans Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24224008.svg)](https://doi.org/10.5281/zenodo.24224008)
+
 An open, sourced dataset of 44 electric campers, camper conversions and conversion kits (price, status and steering per market, range, battery, dimensions, berths, caveats), maintained by [EV Camper Guide](https://www.evcamper.guide/).
 
 - `evcampers.json`: full dataset, one object per model with `markets`, `specs`, `sources`, `caveats`
@@ -19,4 +21,4 @@ Image and video references are removed. Everything else is identical.
 [CC BY 4.0](LICENSE). Attribution required: credit "EV Camper Guide" and link to https://www.evcamper.guide/ .
 
 ## Cite
-EV Camper Guide. *Electric Camper Vans Dataset* (2026). https://www.evcamper.guide/ , https://github.com/heimseiten/electric-camper-vans-dataset (CC BY 4.0). See `CITATION.cff`.
+EV Camper Guide. *Electric Camper Vans Dataset* (2026). https://www.evcamper.guide/ , https://github.com/heimseiten/electric-camper-vans-dataset (CC BY 4.0). DOI: https://doi.org/10.5281/zenodo.24224008 . See `CITATION.cff`.
