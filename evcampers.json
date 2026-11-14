@@ -1,0 +1,4849 @@
+{
+ "name": "EV Camper Guide dataset",
+ "license": "CC BY 4.0",
+ "attribution": "EV Camper Guide (heimseiten.de)",
+ "generated": "2026-11-13",
+ "fx": {
+  "source": "European Central Bank euro foreign exchange reference rates",
+  "date": "2026-10-30",
+  "rates": {
+   "EUR": 1,
+   "USD": 1.1172,
+   "JPY": 175.68,
+   "CZK": 24.353,
+   "DKK": 7.4735,
+   "GBP": 0.8338,
+   "HUF": 366.33,
+   "PLN": 4.4038,
+   "RON": 5.3447,
+   "SEK": 10.978,
+   "CHF": 0.9194,
+   "ISK": 136,
+   "NOK": 10.312,
+   "TRY": 55.8015,
+   "AUD": 1.5904,
+   "BRL": 6.0692,
+   "CAD": 1.5606,
+   "CNY": 7.4326,
+   "HKD": 8.7652,
+   "IDR": 20275.17,
+   "ILS": 3.495,
+   "INR": 106.084,
+   "KRW": 1491.76,
+   "MXN": 21.1237,
+   "MYR": 4.5325,
+   "NZD": 1.9823,
+   "PHP": 71.143,
+   "SGD": 1.4282,
+   "THB": 37.683,
+   "ZAR": 18.6455
+  }
+ },
+ "models": [
+  {
+   "id": "farizon-x-van",
+   "name": "Farizon SV X-Van",
+   "converter": {
+    "name": "Farizon",
+    "country": "CN",
+    "url": null
+   },
+   "factory": true,
+   "base": {
+    "make": "Farizon",
+    "model": "SV",
+    "variant": "X-Van"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "CN",
+     "status": "available",
+     "price": {
+      "amount": 269900,
+      "currency": "CNY",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2025-07-28"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": 460,
+    "range_cycle": "CLTC",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": 170,
+    "length_mm": 5020,
+    "width_mm": 1980,
+    "height_mm": 2140,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": true,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "range_km": 0,
+    "power_kw": 0,
+    "length_mm": 0,
+    "width_mm": 0,
+    "height_mm": 0,
+    "v2l": 0
+   },
+   "highlights": [
+    "Roof tent that retracts and extends electrically",
+    "LFP battery from Gotion High-Tech, vehicle-to-load supported"
+   ],
+   "caveats": [
+    "China only; export to Germany 'currently still open' (electrive, July 2025)",
+    "CLTC range; real-world range lower",
+    "Only source dates from July 2025; no newer price or availability found",
+    "Battery capacity, kitchen, beds not stated in the source; roof-tent van rather than fully equipped camper",
+    "SuperVan-based campers in Australia from third-party converters (e.g. Traveller 6) are different vehicles",
+    "Farizon is a commercial-vehicle brand of Geely"
+   ],
+   "sources": [
+    {
+     "url": "https://www.electrive.com/2025/07/28/geely-subsidiary-shows-electric-camper-in-china",
+     "title": "Geely subsidiary presents electric camper in China",
+     "publisher": "electrive",
+     "date": "2025-07-28"
+    }
+   ],
+   "last_checked": "2026-11-01",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "ari-458-pro-camper",
+   "name": "ARI 458 Pro Camper",
+   "converter": {
+    "name": "ARI Motors",
+    "country": "DE",
+    "url": "https://ari-motors.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "ARI",
+    "model": "458 Pro",
+    "variant": "15 kWh / 23.5 kWh LiFePO4"
+   },
+   "drivetrain": "bev",
+   "body": "coachbuilt",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 25530,
+      "currency": "EUR",
+      "incl_vat": false,
+      "from": true,
+      "as_of": "2026-04-03"
+     },
+     "deliveries": "Market launch planned for May 2026; current availability not confirmed",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 23.5,
+    "battery_kwh_type": "unknown",
+    "range_km": 230,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": 15,
+    "length_mm": 3820,
+    "width_mm": 1490,
+    "height_mm": 2300,
+    "seats": 2,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": 850,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "power_kw": 0,
+    "length_mm": 0,
+    "width_mm": 0,
+    "height_mm": 0,
+    "seats": 0,
+    "payload_kg": 0
+   },
+   "highlights": [
+    "Micro commercial vehicle with box body, about 1.85 m interior standing height",
+    "Payload 850 kg",
+    "Larger battery 23.5 kWh LiFePO4; base battery 15 kWh"
+   ],
+   "caveats": [
+    "Delivered as an empty box for self-conversion; no bed, storage or kitchen from the factory",
+    "Maximum speed about 71 km/h; 15 kW (20 PS)",
+    "Range 120-180 km with the 15 kWh battery, 180-230 km with 23.5 kWh",
+    "Price is net (€25,530 plus VAT); another article lists €25,350 and emobility.energy €23,350, so sources disagree",
+    "Order status comes from April 2026 reports; the manufacturer homepage lists no camper-specific price or order page (checked 1 Nov 2026)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.autozeitung.de/ari-458-pro-wohnmobil-vorstellung-preis-ausstattung-300569.html",
+     "title": "ARI 458 Pro Campingmobil",
+     "publisher": "Auto Zeitung",
+     "date": "2026-04-03"
+    },
+    {
+     "url": "https://www.electrive.net/2026/04/08/ari-motors-bringt-wohnmobil-auf-basis-des-ari-458-pro/",
+     "title": "Ari Motors bringt Wohnmobil auf Basis des Ari 458 Pro",
+     "publisher": "electrive.net",
+     "date": "2026-04-08"
+    },
+    {
+     "url": "https://www.electrive.net/2026/04/08/ari-motors-bringt-wohnmobil-auf-basis-des-ari-458-pro/",
+     "title": "Ari Motors bringt Wohnmobil auf Basis des Ari 458 Pro",
+     "publisher": "electrive.net",
+     "date": "2026-04-08"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "citroen-e-spacetourer-poessl-e-vanster",
+   "name": "Pössl E-Vanster",
+   "converter": {
+    "name": "Pössl",
+    "country": "DE",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Citroën",
+    "model": "ë-SpaceTourer",
+    "variant": "75 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 49999,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2025-11-18"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    },
+    {
+     "market": "CH",
+     "status": "orderable",
+     "price": {
+      "amount": 60000,
+      "currency": "CHF",
+      "incl_vat": null,
+      "from": true,
+      "as_of": null
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 2
+    }
+   ],
+   "specs": {
+    "battery_kwh": 75,
+    "battery_kwh_type": "unknown",
+    "range_km": 298,
+    "range_cycle": "WLTP",
+    "dc_kw": 100,
+    "ac_kw": 11,
+    "power_kw": 100,
+    "length_mm": 4950,
+    "width_mm": 1920,
+    "height_mm": 1990,
+    "seats": 5,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "230-V induction cooker",
+    "v2l": null,
+    "tow_kg": null,
+    "range_real_km": 190,
+    "range_real_note": "promobil first drive, early spring around 10 °C, hilly country roads; extrapolated by promobil from 155 km on an 80 % charge",
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 2,
+    "range_km": 1,
+    "ac_kw": 0,
+    "power_kw": 2,
+    "length_mm": 0,
+    "width_mm": 0,
+    "height_mm": 0,
+    "seats": 0,
+    "kitchen": 0,
+    "dc_kw": 0,
+    "range_real_km": 3,
+    "cooking_fuel": 5
+   },
+   "highlights": [
+    "Everyday van with modular CampBox, 5 seats / 2-4 berths",
+    "Based on Citroën ë-SpaceTourer, 75 kWh battery, 100 kW motor"
+   ],
+   "caveats": [
+    "Autozeitung (18 Nov 2025): e-Vanster not configurable on the manufacturer website at that time; current order status unconfirmed",
+    "Pössl homepage could not be reached during check; no 2026 price found",
+    "Promobil price from 2022 (€58,499; the same article also gives €55,999); VAT status of the €49,999 price not stated",
+    "Range 250-298 km WLTP depending on source; promobil 2022 test: 155 km test drive",
+    "AC 11 kW and DC 100 kW taken from charging times in the 2022 promobil test (about 7 h at 11 kW, about 45 min at 100 kW for 0-80 %)",
+    "Pop-top body not explicitly confirmed for the e-Vanster in the sources",
+    "50 kWh battery option listed earlier is not supported by the sources and was removed"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/poessl-e-vanster-als-elektro-campervan/",
+     "title": "Erste Probefahrt Pössl E-Vanster",
+     "publisher": "promobil",
+     "date": "2022-07-27"
+    },
+    {
+     "url": "https://www.autozeitung.de/poessl-vanster-preis-ausstattung-204871.html",
+     "title": "Pössl Vanster: Alle Details",
+     "publisher": "Auto Zeitung",
+     "date": "2025-11-18"
+    },
+    {
+     "url": "https://openvan.camp/en/news/industry/poessl-evanster-alltagsvan-und-reisemobil-nau",
+     "title": "Pössl E-Vanster (nau-Meldung)",
+     "publisher": "OpenVan.camp",
+     "date": null
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/poessl-e-vanster-als-elektro-campervan/",
+     "title": "Erste Probefahrt Pössl E-Vanster",
+     "publisher": "promobil",
+     "date": "2026"
+    },
+    {
+     "url": "https://www.autozeitung.de/poessl-vanster-preis-ausstattung-204871.html",
+     "title": "Pössl Vanster: Alle Details zum günstigen Allround-Camper",
+     "publisher": "Auto Zeitung",
+     "date": "2025-11-18"
+    },
+    {
+     "url": "https://www.autobild.de/artikel/poessl-e-vanster-test-21309563.html",
+     "title": "Pössl E-Vanster: Test",
+     "publisher": "Auto Bild",
+     "date": null
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "sister": {
+    "name": "Pössl Vanster (Diesel)",
+    "fuel": "diesel",
+    "price": {
+     "amount": 44999,
+     "currency": "EUR",
+     "market": "DE",
+     "incl_vat": null,
+     "from": true,
+     "as_of": "2025-11-18"
+    },
+    "consumption_l_100km": null,
+    "source": 4
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "kia-pv5-alpincamper",
+   "name": "Alpincamper Kia PV5",
+   "converter": {
+    "name": "Alpincamper",
+    "country": "DE",
+    "url": "https://alpincamper.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Cargo",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "high-roof",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 54999,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-09"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": 90,
+    "length_mm": 4700,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": 2,
+    "berths": 2,
+    "weight_kg": 2155,
+    "payload_kg": 570,
+    "heating": null,
+    "kitchen": "Kitchen block with sink, induction hob and folding table",
+    "v2l": true,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "length_mm": 1,
+    "seats": 1,
+    "weight_kg": 1,
+    "payload_kg": 1,
+    "kitchen": 1,
+    "v2l": 1,
+    "power_kw": 1,
+    "cooking_fuel": 0
+   },
+   "highlights": [
+    "Payload with conversion about 570 kg",
+    "Kitchen block with sink and induction hob, 220 V V2L socket standard",
+    "Lifting roof (+€3,500) as option"
+   ],
+   "caveats": [
+    "Price €54,999 from web.de only; the same article also states €39,190 for the 122 hp base version; manufacturer page lists no base price",
+    "The 90 kW output is converted from 122 PS (web.de) and refers to the base vehicle",
+    "Manufacturer page gives no battery, range, power or delivery time; web.de: up to 416 km for the 163 hp / 71.2 kWh version, 'realistically about 300 km'",
+    "Berths: couch extends to 1.20 x 1.95 m; number of sleepers not stated",
+    "Orders appear to go through an inquiry form or dealer listings"
+   ],
+   "sources": [
+    {
+     "url": "https://alpincamper.de/kia-pv5-camper/",
+     "title": "Kia PV5 Camper",
+     "publisher": "Alpincamper",
+     "date": null
+    },
+    {
+     "url": "https://web.de/magazine/reise/premiere-alpincamper-kia-pv5-elektrisches-mini-wohnmobil-cleverem-ausbau-42204166",
+     "title": "Premiere Alpincamper Kia PV5",
+     "publisher": "web.de",
+     "date": "2026-09"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "conflict"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "vw-id-buzz-alpincamper",
+   "name": "Alpincamper ID. Buzz",
+   "converter": {
+    "name": "Alpincamper",
+    "country": "DE",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz Cargo",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 69990,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2025-09"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 2
+    }
+   ],
+   "specs": {
+    "battery_kwh": 77,
+    "battery_kwh_type": "unknown",
+    "range_km": 400,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": 4710,
+    "width_mm": 1980,
+    "height_mm": 1960,
+    "seats": 3,
+    "berths": 2,
+    "weight_kg": 3000,
+    "payload_kg": null,
+    "heating": "optional 500 W electric heater, supplements the parking heater of the ID. Buzz",
+    "kitchen": "900 W induction hob, sink, 2 x 12 l water canisters",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 2,
+    "range_km": 2,
+    "length_mm": 2,
+    "width_mm": 2,
+    "height_mm": 2,
+    "seats": 2,
+    "berths": 2,
+    "weight_kg": 2,
+    "heating": 2,
+    "kitchen": 2,
+    "cooking_fuel": 2
+   },
+   "highlights": [
+    "Elevating roof (Reimo), standing height 1.84 m, bed up to 1.20 x 1.95 m",
+    "Leisure power from a separate 100 Ah lithium battery, not from the traction battery"
+   ],
+   "caveats": [
+    "Latest source (Sep 2025) lists the price as 'at least €69,990'; VAT status not stated; earlier press (2023) quoted €80,000–84,000 for the prototype",
+    "Weight of 3,000 kg is the permissible gross vehicle mass",
+    "77 kWh is the battery of the 150 kW version according to the article; range is the converter's figure ('up to 400 km'), WLTP not stated",
+    "Heater is optional in the 2025 article (the 2023 prototype listed it as standard)",
+    "Order status and delivery times not confirmed on alpincamper.de (page returned no data)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.auto-motor-und-sport.de/neuheiten/alpin-camper-vw-id-buzz-campervan-ausbau/",
+     "title": "Alpin Camper VW ID.Buzz",
+     "publisher": "auto motor und sport",
+     "date": "2023-01-20"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/vw-id-buzz-alpin-camper-elektro-minicamper-2023-cmt/",
+     "title": "VW ID.Buzz Alpincamper: E-Camper-Van (2023)",
+     "publisher": "promobil",
+     "date": "2023"
+    },
+    {
+     "url": "https://www.autozeitung.de/vw-id-buzz-alpincamper-203777.html",
+     "title": "Alpincamper ID. Buzz (2025): Alles zum Elektro-Campingbus",
+     "publisher": "AUTO ZEITUNG",
+     "date": "2025-09-24"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "kia-pv5-sunbox-campers",
+   "name": "Sunbox Campers Kia PV5",
+   "converter": {
+    "name": "Sunbox Campers",
+    "country": "GB",
+    "url": "https://www.sunboxcampers.co.uk"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Cargo",
+    "variant": "Plus Long Range"
+   },
+   "drivetrain": "bev",
+   "body": "fixed-roof",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "GB",
+     "status": "orderable",
+     "price": {
+      "amount": 58385,
+      "currency": "GBP",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-07"
+     },
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 71.2,
+    "battery_kwh_type": "unknown",
+    "range_km": 290,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "induction hob, sink, compressor fridge, solid wood worktop",
+    "v2l": true,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 1,
+    "range_km": 0,
+    "berths": 1,
+    "v2l": 0,
+    "kitchen": 1,
+    "heating_fuel": 2,
+    "cooking_fuel": 1
+   },
+   "highlights": [
+    "Two versions: two-person from £58,385, four-person from £62,485 (vehicle plus conversion per OpenVan)",
+    "V2L up to 3.68 kW",
+    "Standard conversion in the regular van body (fixed roof); a pop-top roof with roof bed is optional"
+   ],
+   "caveats": [
+    "Price source is OpenVan.camp (after thedrive.co.kr), undated (image URL suggests July 2026); VAT status not stated",
+    "Sunbox's own page lists the conversion alone at £20,399 incl. VAT with the Kia invoiced separately",
+    "Range with conversion 290-370 km (OpenVan); Sunbox page gives 256-258 miles (about 412–415 km) WLTP for the 71.2 kWh base van",
+    "Sunbox page states no availability or lead time",
+    "Four berths only with pop-top and roof bed"
+   ],
+   "sources": [
+    {
+     "url": "https://openvan.camp/en/news/industry/kia-pv5-reborn-electric-camper-van-priced-58385",
+     "title": "Kia PV5 reborn as electric camper van priced from £58,385",
+     "publisher": "OpenVan.camp (after thedrive.co.kr)",
+     "date": null
+    },
+    {
+     "url": "https://sunboxcampers.co.uk/kia-pv5-electric-conversion/",
+     "title": "Kia PV5 Electric Conversion",
+     "publisher": "Sunbox Campers",
+     "date": null
+    },
+    {
+     "url": "https://sunboxcampers.co.uk/kia-pv5-electric-conversion/",
+     "title": "Kia PV5 electric campervan conversion",
+     "publisher": "Sunbox Campers",
+     "date": "2026-07"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "mercedes-eqv-tonke",
+   "name": "Tonke EQV",
+   "converter": {
+    "name": "Tonke",
+    "country": "NL",
+    "url": "https://www.tonke.eu/modellen/tonke-eqv/"
+   },
+   "factory": false,
+   "base": {
+    "make": "Mercedes-Benz",
+    "model": "EQV 300",
+    "variant": "90 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "EU",
+     "status": "orderable",
+     "price": {
+      "amount": 87964,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2024-02-01"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": 100,
+    "battery_kwh_type": "unknown",
+    "range_km": 320,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Heat pump (Touring/Adventure)",
+    "kitchen": "Nomad: multifunction kitchen with two-burner induction hob; Touring: swivelling outdoor kitchen",
+    "v2l": null,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "electric",
+    "fossil_variants": true
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "berths": 0,
+    "heating": 0,
+    "kitchen": 0,
+    "heating_fuel": 0,
+    "cooking_fuel": 2
+   },
+   "highlights": [
+    "Three conversion levels: Nomad (kitchen, pop-top optional), Touring, Adventure (pop-top standard according to Autozeitung)",
+    "Sleeper bench 1.45 x 2.03 m",
+    "Touring and Adventure with heat pump"
+   ],
+   "caveats": [
+    "Prices from 2023/2024, not confirmed by the converter (tonke.nl unreachable on 1 Nov 2026)",
+    "Nomad 'just under €88,000' (2023) vs. from €87,964 (2024); price excl./incl. VAT not stated",
+    "100 kWh and 320 km are quoted as 'should be possible'; WLTP not stated; Mercedes EQV 300 otherwise lists 90 kWh",
+    "EQV is being replaced by the VLE (production start mid-2026)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/tonke-eqv-e-campervan/",
+     "title": "Tonke EQV Touring und Adventure (2023): Elektro-Camper",
+     "publisher": "promobil",
+     "date": "2023-07-26"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-campervans-ueberblick/",
+     "title": "Elektro-Campervans mit Mercedes-EQV-Basis im Überblick",
+     "publisher": "promobil",
+     "date": "2024-02-01"
+    },
+    {
+     "url": "https://www.tonke.eu/modellen/tonke-eqv/",
+     "title": "Tonke EQV",
+     "publisher": "Tonke",
+     "date": null
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "nissan-interstar-e-eifelland-relax",
+   "name": "Eifelland Relax",
+   "converter": {
+    "name": "Eifelland",
+    "country": "DE",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Nissan",
+    "model": "Interstar-e",
+    "variant": "87 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "high-roof",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 89900,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-08-01"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 87,
+    "battery_kwh_type": "unknown",
+    "range_km": 410,
+    "range_cycle": "WLTP",
+    "dc_kw": 130,
+    "ac_kw": 22,
+    "power_kw": 105,
+    "length_mm": 6410,
+    "width_mm": 2080,
+    "height_mm": 2500,
+    "seats": 4,
+    "berths": null,
+    "weight_kg": 3053,
+    "payload_kg": null,
+    "heating": "Truma Eezy heater, powered from the high-voltage battery",
+    "kitchen": "90 l fridge, induction hob, sink",
+    "v2l": true,
+    "tow_kg": null,
+    "range_real_km": 300,
+    "range_real_note": "promobil test: about 24 kWh/100 km overall (town, country roads, motorway at 100–105 km/h)",
+    "heating_fuel": "electric",
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "dc_kw": 0,
+    "ac_kw": 0,
+    "power_kw": 0,
+    "seats": 0,
+    "heating": 2,
+    "kitchen": 2,
+    "v2l": 0,
+    "length_mm": 1,
+    "width_mm": 1,
+    "height_mm": 1,
+    "weight_kg": 1,
+    "range_real_km": 3,
+    "heating_fuel": 2,
+    "cooking_fuel": 2
+   },
+   "highlights": [
+    "22 kW AC charger as standard and up to 130 kW DC",
+    "Heater runs from the high-voltage battery, without diesel or gas (V2L)",
+    "Fixed transverse bed approx. 1.90 x 1.60 m, two freely positionable seats"
+   ],
+   "caveats": [
+    "Test car kerb weight 3,053 kg incl. fresh water at 3,500 kg GVW; payload limited (promobil gives no figure)",
+    "WLTP 410 km applies to the base vehicle; promobil quotes slightly more than 300 km practical range",
+    "Base vehicle alone costs €65,224 (promobil)",
+    "Order start and delivery times not stated in the sources; premiere at Caravan Salon 2026",
+    "Other outlets quote different range and price figures; we could not verify them."
+   ],
+   "sources": [
+    {
+     "url": "https://www.elektroauto-news.net/news/eifelland-relax-ecamper-nissan-basis-410-km",
+     "title": "Eifelland Relax: E-Camper auf Nissan-Basis mit 410 km",
+     "publisher": "elektroauto-news.net",
+     "date": "2026-08-01"
+    },
+    {
+     "url": "https://www.promobil.de/einzeltest/elektrischer-camper-von-eifelland-die-praxistauglichkeit-bleibt-zweifelhaft/",
+     "title": "Elektrischer Camper von Eifelland - die Praxistauglichkeit bleibt zweifelhaft",
+     "publisher": "promobil",
+     "date": "2026-08-08"
+    },
+    {
+     "url": "https://de.motor1.com/news/803050/eifelland-relax-nissan-interstar-elektrocamper-2026/",
+     "title": "Eifelland Relax: Elektro-Camper auf Nissan Interstar-e wird flexibler",
+     "publisher": "Motor1 Deutschland",
+     "date": "2026-08"
+    },
+    {
+     "url": "https://www.promobil.de/einzeltest/elektrischer-camper-von-eifelland-die-praxistauglichkeit-bleibt-zweifelhaft/",
+     "title": "Elektrischer Camper von Eifelland: Die Praxistauglichkeit bleibt zweifelhaft",
+     "publisher": "promobil",
+     "date": null
+    },
+    {
+     "url": "https://openvan.camp/en/news/industry/eifelland-relax-buscamper-op-nissan-interstar-ook",
+     "title": "Eifelland Relax motorhome on Nissan Interstar too",
+     "publisher": "OpenVan.camp",
+     "date": "2026-01"
+    },
+    {
+     "url": "https://insideevs.com/news/803631/nissan-electric-camper-van-relax/",
+     "title": "Nissan Wants You To Relax With Its New Electric Camper Van That Fits 4 And Packs 408-Mile Range",
+     "publisher": "InsideEVs",
+     "date": "2026-08-04"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "sister": {
+    "name": "Eifelland Relax (Nissan Interstar Diesel)",
+    "fuel": "diesel",
+    "consumption_l_100km": null,
+    "source": 4
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "wavecamper-flex-e-line",
+   "name": "Wavecamper Flex E-Line",
+   "converter": {
+    "name": "Wavecamper",
+    "country": "PL",
+    "url": "https://www.wavecamper.pl"
+   },
+   "factory": false,
+   "base": {
+    "make": "Ford",
+    "model": "E-Transit Custom",
+    "variant": "70 kWh, rear- or all-wheel drive"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 94990,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-02"
+     },
+     "deliveries": null,
+     "steering": null,
+     "source": 3
+    },
+    {
+     "market": "FR",
+     "status": "orderable",
+     "price": null,
+     "deliveries": null,
+     "steering": null,
+     "source": 0
+    },
+    {
+     "market": "PL",
+     "status": "orderable",
+     "price": null,
+     "deliveries": null,
+     "steering": null,
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 70,
+    "battery_kwh_type": "unknown",
+    "range_km": 372,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": 160,
+    "length_mm": 5050,
+    "width_mm": 2032,
+    "height_mm": 1990,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "kitchen module (details not documented)",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 2,
+    "range_km": 1,
+    "power_kw": 1,
+    "length_mm": 2,
+    "width_mm": 2,
+    "height_mm": 2,
+    "berths": 2,
+    "kitchen": 0,
+    "cooking_fuel": 3,
+    "own_vehicle": 4
+   },
+   "highlights": [
+    "On Ford E-Transit Custom, short (5,050 mm) and long (5,450 mm) wheelbase",
+    "Pop-top, kitchen and four berths",
+    "Rear-wheel or all-wheel drive"
+   ],
+   "caveats": [
+    "Wavecamper lists the German price as “from 94,990 EUR” (November 2026); a trade-press report gave €102,900 incl. VAT and mentioned an €8,000 discount",
+    "Range: 372 km WLTP is Ford's figure for the E-Transit Custom (promobil); practical range about 350 km",
+    "160 kW (218 PS) is the all-wheel-drive output per promobil; Wavecamper states 70 kWh, promobil 71 kWh",
+    "Height 'from 1990 mm' (maker page); heating and kitchen details not documented",
+    "Prices on Wavecamper's own site not published (configurator only)"
+   ],
+   "sources": [
+    {
+     "url": "https://openvan.camp/en/news/industry/wavecamper-bouwt-elektrische-camperbus-op-ford",
+     "title": "Wavecamper bouwt elektrische camperbus op Ford",
+     "publisher": "OpenVan.camp",
+     "date": "2026-09"
+    },
+    {
+     "url": "https://www.promobil.de/einzeltest/wavecamper-e-ford-e-transit-custom-mit-71-kwh-und-rund-350-km-reichweite/",
+     "title": "Wavecamper E (Ford E-Transit Custom) mit 71 kWh und rund 350 km Reichweite",
+     "publisher": "promobil",
+     "date": "2026"
+    },
+    {
+     "url": "https://www.wavecamper.pl",
+     "title": "Ford Custom E-Line",
+     "publisher": "Wavecamper",
+     "date": "2026-11-01"
+    },
+    {
+     "url": "https://wavecamper.de/modele-campervanow/ford-elektro-transit-custom-campervan-kaufen/",
+     "title": "Wavecamper Ford Custom Flex E-Line",
+     "publisher": "Wavecamper",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://www.wavecamper.pl/en/faq",
+     "title": null,
+     "publisher": "wavecamper.pl",
+     "date": "2026-11-02"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "conflict"
+   },
+   "kind": "camper",
+   "own_vehicle": true,
+   "is_conv": false,
+   "fossil_free": null
+  },
+  {
+   "id": "mercedes-eqv-salty-blue-premium",
+   "name": "Salty Blue Premium EQV",
+   "converter": {
+    "name": "Salty Blue",
+    "country": "DE",
+    "url": "https://www.salty-blue.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Mercedes-Benz",
+    "model": "EQV 300",
+    "variant": "90 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "EU",
+     "status": "orderable",
+     "price": {
+      "amount": 100000,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-04"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 4
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "gas"
+   },
+   "spec_sources": {
+    "heating_fuel": 1,
+    "cooking_fuel": 3
+   },
+   "highlights": [
+    "Three-seat sleeper bench (Reimo) and bed with disc spring system"
+   ],
+   "caveats": [
+    "The former provider, Salty Blue Camper GmbH, was subject to insolvency proceedings in 2025 (case 8 IN 235/25); according to the imprint, Johnson & Green GmbH now offers the conversion. Availability rests on the converter's email of 4 Nov 2026; the old vehicle page on salty-blue.com no longer loads",
+    "On a used base vehicle the conversion starts at €74,900 including VAT (converter email, 4 Nov 2026); the price shown is for a new van",
+    "Battery and range are not documented in the source (the converter's photos show a pop-top roof)",
+    "The Mercedes EQV is being replaced by the VLE (series production started mid-2026)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-campervans-ueberblick/",
+     "title": "Elektro-Campervans mit Mercedes-EQV-Basis im Überblick",
+     "publisher": "promobil",
+     "date": "2024-02-01"
+    },
+    {
+     "url": "https://www.autobild.de/artikel/cmt-2024-stuttgart-neuheiten-25097789.html",
+     "title": "CMT 2024 Stuttgart: Neuheiten",
+     "publisher": "Auto Bild",
+     "date": "2024-01-15"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-campervans-ueberblick/",
+     "title": "Elektro-Campervans mit Mercedes-EQV-Basis im Überblick",
+     "publisher": "promobil",
+     "date": "2024-02-01"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/salty-blue-premium-mercedes-benz-eqv/",
+     "title": "Salty Blue Premium EQV 300 (2024)",
+     "publisher": "promobil",
+     "date": "2024-01-16"
+    },
+    {
+     "kind": "mail",
+     "publisher": "Salty Blue",
+     "date": "2026-11-04"
+    }
+   ],
+   "last_checked": "2026-11-05",
+   "verification": {
+    "checked": "2026-11-05",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "sister": {
+    "name": "Salty Blue Premium (Mercedes-Benz V-Klasse)",
+    "fuel": null,
+    "consumption_l_100km": null,
+    "source": 1
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": false
+  },
+  {
+   "id": "mercedes-eqv-yellowcamper",
+   "name": "Yellowcamper EQV",
+   "converter": {
+    "name": "Yellowcamper",
+    "country": "CH",
+    "url": "https://www.yellowcamper.ch"
+   },
+   "factory": false,
+   "base": {
+    "make": "Mercedes-Benz",
+    "model": "EQV 300",
+    "variant": "90 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "CH",
+     "status": "orderable",
+     "price": {
+      "amount": 107689,
+      "currency": "CHF",
+      "incl_vat": true,
+      "from": false,
+      "as_of": "2022-07-30"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 90,
+    "battery_kwh_type": "unknown",
+    "range_km": 363,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Heating use reduces range by about a quarter",
+    "kitchen": "Removable SoulBoxx: two-burner gas stove, 31 L cool box",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "gas"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "berths": 0,
+    "heating": 0,
+    "kitchen": 0,
+    "cooking_fuel": 1
+   },
+   "highlights": [
+    "Switches between four-seat camper, eight-seater and cargo van",
+    "Sold through Lorenz Mercedes (Switzerland)"
+   ],
+   "caveats": [
+    "Data from July 2022; price not confirmed since, yellowcamper.ch shows no model data or price",
+    "363 km is the Mercedes estimate for the EQV; yellowcamper's tester reported at least 310 km, about a quarter less range with heating",
+    "Cooking on a two-burner gas stove at the rear",
+    "EQV is being replaced by the VLE (production start mid-2026)"
+   ],
+   "sources": [
+    {
+     "url": "https://newatlas.com/automotive/yellowcamper-eqv-electric-camper-van",
+     "title": "Yellowcamper EQV electric camper van",
+     "publisher": "New Atlas",
+     "date": "2022-07-30"
+    },
+    {
+     "url": "https://newatlas.com/automotive/yellowcamper-eqv-electric-camper-van",
+     "title": "Yellowcamper EQV Camper",
+     "publisher": "New Atlas",
+     "date": "2022-07-30"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": false
+  },
+  {
+   "id": "grounded-g3-brightdrop-zevo",
+   "name": "Grounded G3",
+   "converter": {
+    "name": "Grounded",
+    "country": "US",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Chevrolet BrightDrop",
+    "model": "Zevo 400 / Zevo 600",
+    "variant": "Max Range 172 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "coachbuilt",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "US",
+     "status": "orderable",
+     "price": {
+      "amount": 165000,
+      "currency": "USD",
+      "incl_vat": false,
+      "from": true,
+      "as_of": "2025-07-08"
+     },
+     "deliveries": "Production start July 2025 per source; delivery status in 2026 not confirmed",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 172,
+    "battery_kwh_type": "unknown",
+    "range_km": 460,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": 224,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "15,000 BTU HVAC system for cooling and heating",
+    "kitchen": "Form: kitchenette; Function: full kitchen equipment, full shower and dinette",
+    "v2l": true,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "battery_kwh": 1,
+    "range_km": 1,
+    "power_kw": 1,
+    "heating": 2,
+    "kitchen": 0,
+    "v2l": 2
+   },
+   "highlights": [
+    "Three trims: Form $165,000, Function $180,000, Freedom $200,000",
+    "Up to 20 kWh of house batteries; 1.4 kW export system can power a house",
+    "Dual-motor AWD, 300 hp (about 224 kW), 390 lb-ft"
+   ],
+   "caveats": [
+    "GM discontinued the BrightDrop base vehicle (October 2025); Grounded said its stock was strong at the time and plans a gas-chassis line",
+    "172 kWh and 286 mi (about 460 km) refer to the Max Range battery; range of other trims not stated",
+    "InsideEVs gives 'over 270 miles' (about 435 km); Autopian gives 286 miles combined (about 460 km)",
+    "Autopian's closing paragraph mentions $160,000, conflicting with its $165,000",
+    "Latest price/stock source is from October 2025; no 2026 update found"
+   ],
+   "sources": [
+    {
+     "url": "https://insideevs.com/news/765112/grounded-g3-brightdrop-electric-rv/",
+     "title": "Chevy's BrightDrop Van Becomes A 270-Mile Electric Camper—Here's What's Inside",
+     "publisher": "InsideEVs",
+     "date": "2025-07-08"
+    },
+    {
+     "url": "https://www.theautopian.com/this-new-all-electric-camper-van-goes-nearly-300-miles-on-a-charge/",
+     "title": "This New All-Electric Camper Van Goes Nearly 300 Miles On A Charge",
+     "publisher": "The Autopian",
+     "date": "2025-07-04"
+    },
+    {
+     "url": "https://insideevs.com/news/765112/grounded-g3-brightdrop-electric-rv/",
+     "title": "Chevy's BrightDrop Van Becomes A 270-Mile Electric Camper",
+     "publisher": "InsideEVs",
+     "date": "2025-07-08"
+    },
+    {
+     "url": "https://www.theautopian.com/general-motors-just-killed-americas-most-practical-electric-camper-van/",
+     "title": "General Motors Just Killed America's Most Practical Electric Camper Van",
+     "publisher": "The Autopian",
+     "date": "2025-10-21"
+    }
+   ],
+   "last_checked": "2026-11-01",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "peace-vans-id-buzz-full-camper",
+   "name": "Peace Vans ID. Buzz Full Camper",
+   "converter": {
+    "name": "Peace Vans",
+    "country": "US",
+    "url": "https://www.peacevans.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": "US long wheelbase"
+   },
+   "drivetrain": "bev",
+   "body": "fixed-roof",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "US",
+     "status": "orderable",
+     "price": {
+      "amount": 24995,
+      "currency": "USD",
+      "incl_vat": false,
+      "from": true,
+      "as_of": "2026-11-01",
+      "scope": "conversion"
+     },
+     "deliveries": "4-6 weeks from order, 5 working days for the conversion in Seattle",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 2,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Sink with pull-out spray, 36 L cool box, 1,200 W induction hob",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "berths": 0,
+    "kitchen": 0,
+    "cooking_fuel": 0,
+    "own_vehicle": 0
+   },
+   "highlights": [
+    "Modular conversion with kitchen, workspace and bed; bed halves usable separately",
+    "Conversion in 5 working days at the Seattle plant"
+   ],
+   "caveats": [
+    "Price for the conversion only; the base vehicle is bought separately (bring your own ID. Buzz to Seattle, or buy one via Peace Vans).",
+    "Price excludes sales tax ('$24,995 + tax')",
+    "Rear seat has no US-approved belts; maker does not recommend carrying passengers",
+    "$12,500 refundable deposit reserves a place in the production queue; 5 business days in Seattle for the install",
+    "Press earlier reported $49,995; maker's page now shows $24,995",
+    "Peace Vans' order form states prices will increase in late 2026 (no date or amount)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.peacevans.com/full-camper-for-idbuzz",
+     "title": "Full Camper for ID. Buzz",
+     "publisher": "Peace Vans",
+     "date": "2026-11-01"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "own_vehicle": true,
+   "is_conv": false,
+   "fossil_free": null
+  },
+  {
+   "id": "peace-vans-id-buzz-pop-top",
+   "name": "Peace Vans ID. Buzz Pop Top",
+   "converter": {
+    "name": "Peace Vans",
+    "country": "US",
+    "url": "https://www.peacevans.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": "US long wheelbase"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "US",
+     "status": "orderable",
+     "price": {
+      "amount": 15995,
+      "currency": "USD",
+      "incl_vat": false,
+      "from": true,
+      "as_of": "2026-11-01",
+      "scope": "conversion"
+     },
+     "deliveries": "Installation takes 5 working days in Seattle; about 50 delivered, about 50 in the queue",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 2,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "berths": 0
+   },
+   "highlights": [
+    "Pop-top roof with hydraulic dampers and three windows, sleeping area 78 x 43 in",
+    "Fits panoramic-glass and solid-roof ID. Buzz",
+    "Overall height with roof up 79 in"
+   ],
+   "caveats": [
+    "Price for the conversion only; the base vehicle is bought separately (customer-supplied ID. Buzz). Roof only, no kitchen build.",
+    "Solid-roof vans cost $1,495 extra",
+    "The maker announced a price rise to $17,995 from 1 October (year not stated); the page still showed $15,995 on 1 Nov 2026.",
+    "Installation only in Seattle, WA"
+   ],
+   "sources": [
+    {
+     "url": "https://www.peacevans.com/buzz-pop-top",
+     "title": "ID. Buzz Pop Top",
+     "publisher": "Peace Vans",
+     "date": "2026-11-01"
+    }
+   ],
+   "last_checked": "2026-11-01",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "conflict"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": true,
+   "fossil_free": null
+  },
+  {
+   "id": "peace-vans-id-buzz-weekender",
+   "name": "Peace Vans ID. Buzz Weekender",
+   "converter": {
+    "name": "Peace Vans",
+    "country": "US",
+    "url": "https://www.peacevans.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": "US long wheelbase"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "US",
+     "status": "orderable",
+     "price": {
+      "amount": 11995,
+      "currency": "USD",
+      "incl_vat": false,
+      "from": true,
+      "as_of": "2026-11-01",
+      "scope": "conversion"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": 4,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "seats": 0,
+    "berths": 0,
+    "kitchen": 0
+   },
+   "highlights": [
+    "Middle seat row removed, new floor, centre console with table",
+    "Swivel seats, pop-top and window covers included"
+   ],
+   "caveats": [
+    "Price for the conversion only; the base vehicle is bought separately (customer-supplied ID. Buzz). Listed as a 'starts at' price.",
+    "No kitchen build listed; the conversion adds a custom centre console and new floor",
+    "Delivery time not stated; Peace Vans' order form says prices will increase in late 2026"
+   ],
+   "sources": [
+    {
+     "url": "https://www.peacevans.com/buzz-weekender",
+     "title": "ID. Buzz Weekender",
+     "publisher": "Peace Vans",
+     "date": "2026-11-01"
+    }
+   ],
+   "last_checked": "2026-11-01",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": true,
+   "fossil_free": null
+  },
+  {
+   "id": "fiat-e-scudo-sunbox-campers",
+   "name": "Sunbox Campers Fiat e-Scudo",
+   "converter": {
+    "name": "Sunbox Campers",
+    "country": "GB",
+    "url": "https://sunboxcampers.co.uk/"
+   },
+   "factory": false,
+   "base": {
+    "make": "Fiat",
+    "model": "e-Scudo",
+    "variant": "75 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "fixed-roof",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "GB",
+     "status": "orderable",
+     "price": {
+      "amount": 20399,
+      "currency": "GBP",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-01",
+      "scope": "conversion"
+     },
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": 75,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Optional Propex gas heating (off-grid)",
+    "kitchen": "Double or single hob, sink, fridge, solid wood worktop; double bed",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "gas"
+   },
+   "spec_sources": {
+    "battery_kwh": 1,
+    "heating": 1,
+    "kitchen": 1,
+    "cooking_fuel": 2,
+    "own_vehicle": 1
+   },
+   "highlights": [
+    "Conversion in Mandalay or Chamonix design on the Fiat e-Scudo, double bed (rock-and-roll or slat)",
+    "Conversion price from £20,399 incl. VAT (base van not included)"
+   ],
+   "caveats": [
+    "Price for the conversion only; the base vehicle is bought separately",
+    "Price page undated (price as seen on 1 Nov 2026); the FAQ mentions £20,999 for the E-Mandalay LWB",
+    "Range given only in miles (around 205 mi, about 330 km, WLTP per spec table); no delivery times stated"
+   ],
+   "sources": [
+    {
+     "url": "https://sunboxcampers.co.uk/",
+     "title": "Sunbox Campers – Fiat e-Scudo Conversion",
+     "publisher": "Sunbox Campers",
+     "date": "2026-11-01"
+    },
+    {
+     "url": "https://sunboxcampers.co.uk/fiat-e-scudo-conversion/",
+     "title": "Fiat e-Scudo conversion",
+     "publisher": "Sunbox Campers",
+     "date": "2026-11-01"
+    },
+    {
+     "url": "https://sunboxcampers.co.uk/fiat-e-scudo-conversion/",
+     "title": "Fiat e-Scudo campervan conversion",
+     "publisher": "Sunbox Campers",
+     "date": "2026-11-01"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "kind": "camper",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "verified"
+   },
+   "own_vehicle": true,
+   "is_conv": false,
+   "fossil_free": false
+  },
+  {
+   "id": "vw-id-buzz-sunbox-campers",
+   "name": "Sunbox Campers ID. Buzz",
+   "converter": {
+    "name": "Sunbox Campers",
+    "country": "GB",
+    "url": "https://sunboxcampers.co.uk/vw-id-buzz/"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz Cargo",
+    "variant": "79 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "fixed-roof",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "GB",
+     "status": "orderable",
+     "price": {
+      "amount": 20399,
+      "currency": "GBP",
+      "incl_vat": true,
+      "from": false,
+      "as_of": "2026-06",
+      "scope": "conversion"
+     },
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 79,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Electric heating as extra; induction hob and any heating may draw from the traction battery",
+    "kitchen": "Chamonix/Mandalay: full hand-built kitchen",
+    "v2l": true,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "v2l": 0,
+    "heating": 0,
+    "heating_fuel": 1,
+    "cooking_fuel": 1,
+    "own_vehicle": 0
+   },
+   "highlights": [
+    "Three conversion designs; conversion-only prices incl. VAT, as at June 2026: Chamonix £20,399, Mandalay from £22,750, Surf Buzz from £9,995 (a smaller partial package)",
+    "Horizon pop-top optional (£7,995 incl. VAT on the page; a worked example elsewhere shows £8,645 with colour code); sleeps two, four with pop-top and roof bed",
+    "Manufacturer figure for the base vehicle: up to 276 miles (about 444 km) WLTP (79 kWh), real-world 220–250 miles (about 354–402 km)"
+   ],
+   "caveats": [
+    "Price for the conversion only; the base vehicle is bought separately (short-wheelbase ID. Buzz Cargo). The listed price applies to the Chamonix design; 'Surf Buzz' is a cheaper partial package",
+    "Pure conversions, partly on used ID. Buzz Cargo vans; not a complete vehicle at a fixed price",
+    "Range is quoted in miles (276 mi WLTP, about 444 km); weight/payload not documented"
+   ],
+   "sources": [
+    {
+     "url": "https://sunboxcampers.co.uk/vw-id-buzz/",
+     "title": "VW ID. Buzz camper conversions",
+     "publisher": "Sunbox Campers",
+     "date": "2026-06"
+    },
+    {
+     "url": "https://sunboxcampers.co.uk/vw-id-buzz/",
+     "title": "VW ID. Buzz conversion",
+     "publisher": "Sunbox Campers",
+     "date": "2026-06"
+    },
+    {
+     "url": "https://sunboxcampers.co.uk/vw-transporter-conversion/",
+     "title": "VW Transporter conversion",
+     "publisher": "Sunbox Campers",
+     "date": null
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "kind": "camper",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "verified"
+   },
+   "sister": {
+    "name": "Sunbox Chamonix/Mandalay (VW Transporter T7 Diesel)",
+    "fuel": "diesel",
+    "consumption_l_100km": null,
+    "source": 2
+   },
+   "own_vehicle": true,
+   "is_conv": false,
+   "fossil_free": true
+  },
+  {
+   "id": "kia-pv5-wellhouse-icamper",
+   "name": "Wellhouse Leisure i-Camper",
+   "converter": {
+    "name": "Wellhouse Leisure",
+    "country": "GB",
+    "url": "https://www.wellhouseleisure.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Cargo",
+    "variant": "Plus Long Range 71.2 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "GB",
+     "status": "preorder",
+     "price": {
+      "amount": 63000,
+      "currency": "GBP",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-11-04"
+     },
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 2
+    }
+   ],
+   "specs": {
+    "battery_kwh": 71.2,
+    "battery_kwh_type": "unknown",
+    "range_km": 398,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": 4690,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "induction cooktop, sink, fridge (compact kitchen on driver's side)",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "length_mm": 0,
+    "berths": 0,
+    "kitchen": 0,
+    "cooking_fuel": 1
+   },
+   "highlights": [
+    "Sleeps four with pop-top roof (second double bed)",
+    "200 W solar panel charges the leisure battery"
+   ],
+   "caveats": [
+    "autoevolution (28 Jul 2026): showcased unit is a prototype, 'the final production model might differ slightly'",
+    "Wellhouse (email, 4 Nov 2026): only two models, at £63,000 and £67,000; which versions and whether VAT is included is not confirmed yet",
+    "Several dealer listings use 'AI-generated concept visuals' or show a Toyota Proace conversion; no finished vehicle at the time of those listings",
+    "Range 247 miles (398 km) is the article's estimate for the base van, not a converter WLTP value",
+    "A report attributed to New Atlas says Wellhouse sold its first batch of 30 vans; we could not confirm this at the source"
+   ],
+   "sources": [
+    {
+     "url": "https://www.autoevolution.com/news/wellhouse-leisure-s-icamper-turns-the-award-winning-kia-pv5-into-a-highly-versatile-campervan-273464.html",
+     "title": "Wellhouse iCamper",
+     "publisher": "autoevolution",
+     "date": "2026-07-28"
+    },
+    {
+     "url": "https://www.autoevolution.com/news/wellhouse-leisure-s-icamper-turns-the-award-winning-kia-pv5-into-a-highly-versatile-campervan-273464.html",
+     "title": "Wellhouse iCamper",
+     "publisher": "autoevolution",
+     "date": "2026-07-28"
+    },
+    {
+     "kind": "mail",
+     "publisher": "Wellhouse Leisure",
+     "date": "2026-11-04"
+    }
+   ],
+   "last_checked": "2026-11-05",
+   "verification": {
+    "checked": "2026-11-05",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "vw-id-california-cruise",
+   "name": "Volkswagen ID. California Cruise",
+   "converter": {
+    "name": "Volkswagen Commercial Vehicles",
+    "country": "DE",
+    "url": "https://www.volkswagen-nutzfahrzeuge.de"
+   },
+   "factory": true,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": "short or long wheelbase"
+   },
+   "drivetrain": "bev",
+   "body": "fixed-roof",
+   "status_overall": "announced",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "announced",
+     "price": {
+      "amount": 60761,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-08-28"
+     },
+     "deliveries": "Early 2027",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 2,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Air conditioning keeps the interior at temperature for up to 48 h in California mode",
+    "kitchen": "No kitchen mentioned; V2L for external appliances",
+    "v2l": true,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "none"
+   },
+   "spec_sources": {
+    "berths": 1,
+    "heating": 0,
+    "v2l": 0,
+    "kitchen": 0,
+    "heating_fuel": 3,
+    "cooking_fuel": 4
+   },
+   "highlights": [
+    "First fully electric VW California, world premiere at Caravan Salon Düsseldorf 2026",
+    "Bed 2 m long, blackout blinds, camping table and two chairs",
+    "V2L up to 2,000 W continuous output (peak 3.6 kW)",
+    "Further electric California models announced up to 2028"
+   ],
+   "caveats": [
+    "Price from €60,761 for Germany; gross/net not stated in any source",
+    "VW has published no technical data for the Cruise: battery and range are not stated (press quotes the base ID. Buzz Pro with 78, 79 or 86 kWh and about 460 km, which are not Cruise figures)",
+    "First deliveries early 2027, Germany first; order start not documented",
+    "No kitchen and no pop-top mentioned: closer to a mini camper with bed, table and chairs",
+    "No UK launch announced"
+   ],
+   "sources": [
+    {
+     "url": "https://www.autoevolution.com/news/volkswagen-reveals-all-new-id-california-cruise-at-caravan-salon-2026-here-is-the-starting-price-274814.html",
+     "title": "Volkswagen Reveals All-New ID. California Cruise at Caravan Salon 2026",
+     "publisher": "autoevolution",
+     "date": "2026-08-28"
+    },
+    {
+     "url": "https://thedriven.io/2026/08/31/volkswagen-finally-debuts-its-id-california-cruise-all-electric-camper/",
+     "title": "Volkswagen finally debuts its ID. California Cruise all-electric camper",
+     "publisher": "The Driven",
+     "date": "2026-08-31"
+    },
+    {
+     "url": "https://www.sparneuwagen.de/news/vw-id-california-cruise-der-bulli-traum-wird-elektrisch-ab-60-761-euro/",
+     "title": "VW ID. California Cruise: Der Bulli-Traum wird elektrisch ab 60.761 Euro",
+     "publisher": "sparneuwagen.de",
+     "date": "2026-08-28"
+    },
+    {
+     "url": "https://www.autoevolution.com/news/volkswagen-reveals-all-new-id-california-cruise-at-caravan-salon-2026-here-is-the-starting-price-274814.html",
+     "title": "VW ID. California Cruise",
+     "publisher": "autoevolution",
+     "date": "2026-08-31"
+    },
+    {
+     "url": "https://newmobility.news/en/2026/08/31/vws-electric-california-solves-weight-problem-by-leaving-kitchen-at-home/",
+     "title": "VW's electric California solves weight problem by leaving kitchen at home",
+     "publisher": "newmobility.news",
+     "date": "2026-08-31"
+    }
+   ],
+   "last_checked": "2026-11-06",
+   "verification": {
+    "checked": "2026-11-05",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "kia-pv5-vantrack-lightcamp",
+   "name": "Vantrack LightCamp",
+   "converter": {
+    "name": "Vantrack",
+    "country": "NL",
+    "url": "https://www.vantrack.nl"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Passenger",
+    "variant": "Essential (battery not stated)"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "announced",
+   "markets": [
+    {
+     "market": "NL",
+     "status": "announced",
+     "price": {
+      "amount": 65000,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-07-14"
+     },
+     "deliveries": "Reservations were planned from September 2026; no delivery date",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "removable induction cooker, 18-litre compressor coolbox, 11-litre water container",
+    "v2l": true,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "berths": 0,
+    "v2l": 0,
+    "kitchen": 0,
+    "cooking_fuel": 1,
+    "own_vehicle": 2
+   },
+   "highlights": [
+    "Modular kit with extending 130 by 190 cm bed; total sleeping capacity four with rooftop tent",
+    "Kia's vehicle-to-load system supplies up to 3.6 kW"
+   ],
+   "caveats": [
+    "newmobility.news: 'the LightCamp remains under development'; no demo vehicle, no individual viewings",
+    "Price from €65,000 includes the vehicle (PV5 Passenger Essential); battery size and VAT not stated; a basic kit alone is reported at about €10,000 elsewhere",
+    "Reservations were to open in September 2026; debut at Kampeer & Caravan Jaarbeurs Utrecht 30 Sep-4 Oct 2026; outcome not confirmed",
+    "Some media describe it as a Kia cooperation; newmobility.news does not"
+   ],
+   "sources": [
+    {
+     "url": "https://newmobility.news/en/2026/07/14/dutch-vantrack-turns-kia-pv5-into-e65000-electric-camper/",
+     "title": "Dutch Vantrack turns Kia PV5 into €65,000 electric camper",
+     "publisher": "newmobility.news",
+     "date": "2026-07-14"
+    },
+    {
+     "url": "https://newmobility.news/en/2026/07/14/dutch-vantrack-turns-kia-pv5-into-e65000-electric-camper/",
+     "title": "Dutch Vantrack turns Kia PV5 into €65,000 electric camper",
+     "publisher": "New Mobility",
+     "date": "2026-07-14"
+    },
+    {
+     "url": "https://www.camping-car.com/actualites/toute-l-actualite/vantrack-devoile-la-lightcamp-un-amenagement-electrique-modulable-pour-le-kia-pv5/",
+     "title": null,
+     "publisher": "camping-car.com",
+     "date": "2026-11-02"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "own_vehicle": true,
+   "is_conv": false,
+   "fossil_free": null
+  },
+  {
+   "id": "farizon-sv-carryboy",
+   "name": "Carryboy Farizon SV Campervan",
+   "converter": {
+    "name": "Carryboy",
+    "country": "TH",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Farizon",
+    "model": "SV",
+    "variant": "82 kWh LFP"
+   },
+   "drivetrain": "bev",
+   "body": "high-roof",
+   "status_overall": "announced",
+   "markets": [
+    {
+     "market": "TH",
+     "status": "announced",
+     "price": {
+      "amount": 2800000,
+      "currency": "THB",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-03-30"
+     },
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 82,
+    "battery_kwh_type": "unknown",
+    "range_km": 372,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": 6000,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 5,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "68 L refrigerator",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "length_mm": 0,
+    "berths": 0,
+    "kitchen": 0,
+    "cooking_fuel": 1
+   },
+   "highlights": [
+    "6 m long full-size van, 4-5 berths (lower and upper bed)",
+    "82 kWh LFP pack"
+   ],
+   "caveats": [
+    "Shown at Bangkok International Motor Show 2026; New Atlas first read it as a concept or exhibition vehicle; sale not confirmed as of 30 Mar 2026",
+    "Price 'just under ฿2.8 million' is a planned starting price, VAT status unknown; media currency conversions differ",
+    "No sign of sale in Europe",
+    "No newer source than March 2026 found (checked 1 Nov 2026)",
+    "Farizon is a commercial-vehicle brand of Geely"
+   ],
+   "sources": [
+    {
+     "url": "https://newatlas.com/campervans/carryboy-farizon-electric-camper-van",
+     "title": "Carryboy x Farizon campervan",
+     "publisher": "New Atlas",
+     "date": "2026-03-30"
+    },
+    {
+     "url": "https://newatlas.com/campervans/carryboy-farizon-electric-camper-van",
+     "title": "Carryboy Farizon SV electric camper van",
+     "publisher": "New Atlas",
+     "date": null
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "kia-pv5-sussex-campervans",
+   "name": "Sussex Campervans Kingfisher",
+   "converter": {
+    "name": "Sussex Campervans",
+    "country": "GB",
+    "url": "https://www.sussexcampervans.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Cargo",
+    "variant": "Long Range 71.2 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "announced",
+   "markets": [
+    {
+     "market": "GB",
+     "status": "announced",
+     "price": {
+      "amount": 68995,
+      "currency": "GBP",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-04-16"
+     },
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 71.2,
+    "battery_kwh_type": "unknown",
+    "range_km": 415,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "dual-hob induction cooker, 50-L fridge/freezer, microwave",
+    "v2l": true,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "kitchen": 0,
+    "v2l": 0,
+    "cooking_fuel": 2
+   },
+   "highlights": [
+    "Dual-hob induction cooker, microwave and 50-L fridge/freezer powered via vehicle-to-load",
+    "Pop-up roof bed suitable for a single adult or two children",
+    "WLTP rated 258 miles (415 km) for the base van with the 71-kWh battery"
+   ],
+   "caveats": [
+    "Price is Sussex's 'estimated base price' (New Atlas); VAT status not stated",
+    "No order, deposit or delivery information in the sources; buyers can only sign up for information",
+    "Sussex website was not reachable during the check",
+    "The 430-mile (about 692 km, Guinness) record comes from the base van, not the camper",
+    "Heating, dimensions and berths not stated; New Atlas gives 416 km WLTP in a second article"
+   ],
+   "sources": [
+    {
+     "url": "https://newatlas.com/campervans/kia-pv5-kingfisher-camper-van/",
+     "title": "Sussex Kingfisher PV5 camper van",
+     "publisher": "New Atlas",
+     "date": "2026-04-16"
+    },
+    {
+     "url": "https://newatlas.com/campervans/kia-pv5-pop-up-camper-sussex/",
+     "title": "Kia PV5 pop-up camper (Sussex)",
+     "publisher": "New Atlas",
+     "date": null
+    },
+    {
+     "url": "https://openvan.camp/en/news/builds/sussex-campervans-hypes-up-kia-pv5-camper",
+     "title": "Sussex Campervans hypes up Kia PV5 camper",
+     "publisher": "OpenVan.camp",
+     "date": null
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "kia-pv5-light-camper-factory",
+   "name": "Kia PV5 Light Camper",
+   "converter": {
+    "name": "Kia",
+    "country": "KR",
+    "url": "https://www.kia.com"
+   },
+   "factory": true,
+   "base": {
+    "make": "Kia",
+    "model": "PV5",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "announced",
+   "markets": [
+    {
+     "market": "KR",
+     "status": "announced",
+     "price": null,
+     "deliveries": "Phased launch announced, no date",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": 416,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Kitchen module with refrigerator and induction hob",
+    "v2l": true,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "range_km": 0,
+    "kitchen": 0,
+    "v2l": 0,
+    "cooking_fuel": 0
+   },
+   "highlights": [
+    "Factory camper module with refrigerator and induction hob, V2L"
+   ],
+   "caveats": [
+    "Only secondary source (OpenVan.camp); no Kia primary source found",
+    "Price not established: about ₩50 million (OpenVan) vs ₩70–80 million elsewhere",
+    "May be identical to the Vantrack LightCamp (Kia cooperation)",
+    "Launch reported as 'phased' without a date; an OpenVan item from August 2026 said launch expected next month; not confirmed as launched"
+   ],
+   "sources": [
+    {
+     "url": "https://openvan.camp/en/news/industry/kia-unveils-electric-camper-van-pv5-light-camper",
+     "title": "Kia unveils electric camper van PV5 Light Camper",
+     "publisher": "OpenVan.camp",
+     "date": "2026"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "honda-n-van-e-route-six-seek-e",
+   "name": "Route Six Seek:e",
+   "converter": {
+    "name": "Route Six",
+    "country": "JP",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Honda",
+    "model": "N-VAN e:",
+    "variant": "e: FUN"
+   },
+   "drivetrain": "bev",
+   "body": "fixed-roof",
+   "status_overall": "announced",
+   "markets": [
+    {
+     "market": "JP",
+     "status": "announced",
+     "price": null,
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 29.6,
+    "battery_kwh_type": "unknown",
+    "range_km": 245,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "battery_kwh": 1,
+    "range_km": 1,
+    "berths": 0
+   },
+   "highlights": [
+    "Kei camper on Honda N-VAN e: ('3.4 m class' per headline); sleeps two adults, four with the optional pop-up roof"
+   ],
+   "caveats": [
+    "Shown at Japan Camping Car Show 2026; sales start and total price not stated in the source",
+    "Only the conversion fee of about ¥1.23 million (conversion of a customer-supplied vehicle) was shown; the base vehicle N-VAN e: FUN costs about ¥2.92 million; no total price is given",
+    "Battery and range are base-vehicle figures (WEB CARTOP 2024 test), not from the converter; real range with conversion unknown",
+    "Length only given as '3.4 m class' in the headline"
+   ],
+   "sources": [
+    {
+     "url": "https://kuruma-news.jp/post/1022659",
+     "title": "ホンダ N-VAN 軽キャンパー ルートシックス「シーク」シリーズ",
+     "publisher": "くるまのニュース",
+     "date": "2026-03-01"
+    },
+    {
+     "url": "https://www.webcartop.jp/2024/08/1429076/2/amp/",
+     "title": "【試乗】すごいぞホンダN-VAN e:!",
+     "publisher": "WEB CARTOP",
+     "date": "2024-08-01"
+    }
+   ],
+   "last_checked": "2026-11-01",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "cityfreighter-evolve",
+   "name": "CityFreighter Evolve",
+   "converter": {
+    "name": "CityFreighter",
+    "country": "DE",
+    "url": null
+   },
+   "factory": true,
+   "base": {
+    "make": "CityFreighter",
+    "model": "EVOLVE",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "coachbuilt",
+   "status_overall": "concept",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "announced",
+     "price": null,
+     "deliveries": "Series production not started; a few units possible around 2028",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 128,
+    "battery_kwh_type": "unknown",
+    "range_km": 400,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "battery_kwh": 1,
+    "range_km": 0
+   },
+   "highlights": [
+    "Electric motorhome demonstrator on CityFreighter's own platform, shown at Caravan Salon 2026 in Düsseldorf"
+   ],
+   "caveats": [
+    "Demonstrator without price; series production has not started, a few units possible around 2028",
+    "Autopian gives 248 miles of range for the 128 kWh battery (about 399 km), consistent with the 400 km figure",
+    "No dimensions, seats or berths in the sources"
+   ],
+   "sources": [
+    {
+     "url": "https://openvan.camp/en/news/industry/le-cityfreighter-evolve-veut-enfin-rendre-le",
+     "title": "Le CityFreighter Evolve veut enfin rendre le ... (OpenVan.camp)",
+     "publisher": "OpenVan.camp",
+     "date": "2026-09"
+    },
+    {
+     "url": "https://www.theautopian.com/this-all-electric-motorhome-weighs-less-than-a-big-pickup-truck-and-gets-decent-range-but-theres-a-sad-catch/",
+     "title": "This all-electric motorhome weighs less than a big pickup truck (The Autopian)",
+     "publisher": "The Autopian",
+     "date": null
+    }
+   ],
+   "last_checked": "2026-11-01",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "ford-e-transit-dethleffs-e-home-eco-concept",
+   "name": "Dethleffs e.home Eco",
+   "converter": {
+    "name": "Dethleffs",
+    "country": "DE",
+    "url": "https://www.dethleffs.de"
+   },
+   "factory": true,
+   "base": {
+    "make": "Ford",
+    "model": "E-Transit",
+    "variant": "Model year 2023"
+   },
+   "drivetrain": "bev",
+   "body": "coachbuilt",
+   "status_overall": "concept",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "announced",
+     "price": null,
+     "deliveries": "Series launch targeted by 2028",
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": 240,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": 3425,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "range_km": 0,
+    "weight_kg": 0,
+    "heating_fuel": 2,
+    "cooking_fuel": 2
+   },
+   "highlights": [
+    "Concept on Ford E-Transit with a semi-integrated body; target for a production model: 400 km range",
+    "At Caravan Salon 2026, trade press reports that series production of a semi-integrated electric motorhome is targeted in about two years"
+   ],
+   "caveats": [
+    "No order start, no price, no production platform decided",
+    "240 km WLTP applies to the concept; 400 km is only a target",
+    "Dethleffs describes the concept as an interim state of development, not a pre-series model"
+   ],
+   "sources": [
+    {
+     "url": "https://ecomento.de/2025/07/09/dethleffs-e-home-eco-elektro-wohnmobil-soll-2028-starten/",
+     "title": "Dethleffs e.home Eco: Elektro-Wohnmobil soll 2028 starten",
+     "publisher": "ecomento.de",
+     "date": "2025-07-09"
+    },
+    {
+     "url": "https://www.voylt.com/news/caravan-salon-elektrische-wohnmobile-2026",
+     "title": "Caravan Salon 2026: Wie weit sind elektrische Wohnmobile 2026 wirklich?",
+     "publisher": "voylt",
+     "date": "2026-09-03"
+    },
+    {
+     "url": "https://ecomento.de/2025/07/09/dethleffs-e-home-eco-elektro-wohnmobil-soll-2028-starten/",
+     "title": "Dethleffs e.home Eco: Elektro-Wohnmobil soll 2028 starten",
+     "publisher": "ecomento",
+     "date": "2025-07-09"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "kind": "camper",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "verified"
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "hyundai-staria-electric-camper-concept",
+   "name": "Hyundai STARIA Camper Concept",
+   "converter": {
+    "name": "Hyundai",
+    "country": "KR",
+    "url": "https://www.hyundai.com"
+   },
+   "factory": true,
+   "base": {
+    "make": "Hyundai",
+    "model": "STARIA Electric",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "concept",
+   "markets": [],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": 400,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": 160,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 2,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "range_km": 0,
+    "power_kw": 0,
+    "berths": 0
+   },
+   "highlights": [
+    "Pop-top roof, 520 W lightweight composite solar panel (up to 2.6 kWh per day)",
+    "800-volt architecture (base vehicle)"
+   ],
+   "caveats": [
+    "Concept shown at CMT Stuttgart, January 2026; production approval still open",
+    "Range and power apply to the base STARIA Electric ('up to 400 kilometres' WLTP estimate), not to the camper",
+    "No production decision; Hyundai Germany's PR team confirmed on 5 Nov 2026 that it is a concept to evaluate the market, not a production model"
+   ],
+   "sources": [
+    {
+     "url": "https://www.news.hyundai.be/a-new-vision-of-travel-freedom-hyundai-unveils-staria-camper-concept-at-the-cmt-in-stuttgart",
+     "title": "Hyundai unveils STARIA Camper Concept at CMT",
+     "publisher": "Hyundai Belgium",
+     "date": "2026-01-16"
+    },
+    {
+     "url": "https://www.hyundai.news/de/articles/press-releases/staria-elektro-camper-concept.html",
+     "title": "Neue Vision der Reisefreiheit: Hyundai präsentiert STARIA Camper Concept auf der CMT in Stuttgart",
+     "publisher": "Hyundai Motor Deutschland",
+     "date": "2026-01-16"
+    }
+   ],
+   "last_checked": "2026-11-05",
+   "verification": {
+    "checked": "2026-11-05",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "ford-e-transit-winnebago-erv2",
+   "name": "Winnebago eRV2",
+   "converter": {
+    "name": "Winnebago",
+    "country": "US",
+    "url": "https://www.winnebago.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Ford",
+    "model": "E-Transit",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "high-roof",
+   "status_overall": "concept",
+   "markets": [
+    {
+     "market": "US",
+     "status": "announced",
+     "price": null,
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": 174,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "range_km": 0
+   },
+   "highlights": [
+    "Prototype on Ford E-Transit with 48-volt, 15-kWh battery pack under the floor",
+    "900-watt solar panels"
+   ],
+   "caveats": [
+    "Concept: 'not intended for production anytime soon' (January 2023); no price, no date",
+    "Range of 108 miles (173.8 km) is the estimate quoted for the Ford E-Transit chassis",
+    "No newer source than January 2023 found (checked 1 Nov 2026)"
+   ],
+   "sources": [
+    {
+     "url": "https://insideevs.com/news/632055/winnebago-erv2-concept-electric-motorhome/",
+     "title": "Winnebago Debuts eRV2 All-Electric Motorhome Concept",
+     "publisher": "InsideEVs",
+     "date": "2023-01-19"
+    }
+   ],
+   "last_checked": "2026-11-01",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "toyota-proace-electric-campervan-co-eco-revolution",
+   "name": "Campervan Co Eco Revolution",
+   "converter": {
+    "name": "Campervan Co",
+    "country": "GB",
+    "url": "https://web.archive.org/web/20230131143632/https://campervanco.com/"
+   },
+   "factory": false,
+   "base": {
+    "make": "Toyota",
+    "model": "Proace Electric (Verso)",
+    "variant": "50 kWh (75 kWh optional)"
+   },
+   "drivetrain": "bev",
+   "body": "fixed-roof",
+   "status_overall": "discontinued",
+   "markets": [
+    {
+     "market": "GB",
+     "status": "discontinued",
+     "price": {
+      "amount": 69995,
+      "currency": "GBP",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2023-02-01"
+     },
+     "deliveries": null,
+     "steering": "RHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 50,
+    "battery_kwh_type": "unknown",
+    "range_km": 230,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": 4,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "electric space heater",
+    "kitchen": "removable kitchen block with induction cooktop, sink, solid wood worktop",
+    "v2l": null,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "seats": 0,
+    "berths": 0,
+    "heating": 0,
+    "kitchen": 0,
+    "heating_fuel": 0,
+    "cooking_fuel": 0
+   },
+   "highlights": [
+    "Conversion from four-berth camper to seven-seater (kitchen/beds removable)",
+    "Optional 75 kWh battery with up to 205 miles (330 km) WLTP"
+   ],
+   "caveats": [
+    "The converter (Campers Scotland, trading as CamperVanCo) has been in liquidation since 24 December 2024, with no prospect of a sale of the business; the Eco Revolution can no longer be ordered new. Data from Feb/May 2023",
+    "Price applies to the 50 kWh version; VAT status not stated; the 75 kWh version has up to 330 km WLTP",
+    "Electric space heater needs shore power according to a Caravan Club review",
+    "Pop-top roof not documented in the sources"
+   ],
+   "sources": [
+    {
+     "url": "https://newatlas.com/automotive/campervan-electric-toyota-revolution-camper/",
+     "title": "Campervan Co Toyota Proace Electric Eco Revolution",
+     "publisher": "New Atlas",
+     "date": "2023-02-01"
+    },
+    {
+     "url": "https://www.practicalmotorhome.com/news/scottish-converter-campervanco-collapses",
+     "title": "Scottish converter CamperVanCo collapses",
+     "publisher": "Practical Motorhome",
+     "date": "2025-01-09"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "vw-id-buzz-peace-vans-kitchen-box",
+   "name": "Peace Vans Kitchen Box + Sleeper (ID. Buzz)",
+   "converter": {
+    "name": "Peace Vans",
+    "country": "US",
+    "url": "https://www.peacevans.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "US",
+     "status": "available",
+     "price": {
+      "amount": 7995,
+      "currency": "USD",
+      "incl_vat": false,
+      "from": true,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Sink, iso-butane burner, Dometic fridge",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 0,
+    "kit.install_min": 0,
+    "kit.fits": 0,
+    "kit.kitchen": 0
+   },
+   "highlights": [
+    "Rear kitchen box built specifically for the ID. Buzz; sleeper add-on with a nearly queen-sized platform that folds away behind the second-row seats",
+    "Installation takes about 2 hours at Peace Vans; free install in the Seattle area"
+   ],
+   "caveats": [
+    "Price $7,995 + tax for the Kitchen Box; the Sleeper add-on is $2,000 more ($9,995 + tax in total). Vehicle bought separately",
+    "The unit requires removal of the third row of seats; the supplier gives about 100 lb for the packed unit (no kg figure)",
+    "Installed by Peace Vans or partner dealers; not a stand-alone take-home kit; US market only",
+    "Page has no date; retrieved 2 Nov 2026"
+   ],
+   "sources": [
+    {
+     "url": "https://www.peacevans.com/quick-install-solutions",
+     "title": "Quick Install Solutions for the ID. Buzz",
+     "publisher": "Peace Vans",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "note": {
+       "en": "US long wheelbase",
+       "de": "US-Version mit langem Radstand",
+       "nl": "Amerikaanse versie met lange wielbasis",
+       "fr": "version américaine à empattement long"
+      }
+     }
+    ],
+    "fits_also_ice": null,
+    "box_weight_kg": null,
+    "install_min": 120,
+    "bed_cm": null,
+    "seats_kept": false,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "ququq-busbox-4-id-buzz",
+   "name": "Ququq BusBox 4 (ID. Buzz)",
+   "converter": {
+    "name": "Ququq",
+    "country": "DE",
+    "url": "http://www.ququq.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz / ID. Buzz Cargo",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "EU",
+     "status": "available",
+     "price": {
+      "amount": 3190,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2024-07-20",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": 62,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Kitchen, table, sink, two-burner gas stove",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "gas"
+   },
+   "spec_sources": {
+    "berths": 0,
+    "kitchen": 0,
+    "weight_kg": 0,
+    "cooking_fuel": 1,
+    "kit.box_weight_kg": 0,
+    "kit.bed_cm": 0,
+    "kit.kitchen": 0,
+    "kit.fits": 0,
+    "kit.tool_free": 2
+   },
+   "highlights": [
+    "Removable camping box (110 x 42 x 76 cm, 62 kg) with fold-out bed 125 x 195 cm",
+    "For the passenger and cargo variants of the ID. Buzz"
+   ],
+   "caveats": [
+    "Price for the conversion only; the base vehicle is bought separately. This covers the removable camping box only (from €3,190 as of July 2024).",
+    "Not a camper conversion in the usual sense: a plug-in module for the cargo area",
+    "Two-burner gas stove, not induction",
+    "Bed area 125 x 195 cm; number of berths not stated",
+    "Current price not confirmed (ququq.com not reachable; launch price reported as €2,790 in 2022)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.autozeitung.de/vw-id-buzz-ququq-campingbox-206565.html",
+     "title": "VW ID. Buzz mit Ququq-Campingbox",
+     "publisher": "Auto Zeitung",
+     "date": "2024-07-20"
+    },
+    {
+     "url": "https://www.promobil.de/einzeltest/praxis-test-vw-id-buzz-ququq-busbox-4-camper-elektrovan/",
+     "title": "Test: VW ID.Buzz als Campingfahrzeug - Geht das?",
+     "publisher": "promobil",
+     "date": "2023-07"
+    },
+    {
+     "url": "https://www.autozeitung.de/vw-id-buzz-wohnmobile-uebersicht-207561.html",
+     "title": "Fünf Camper-Umbauten: So wird der VW ID. Buzz zum Wohnmobil",
+     "publisher": "Auto Zeitung",
+     "date": "2024-11-01"
+    },
+    {
+     "url": "https://www.promobil.de/einzeltest/praxis-test-vw-id-buzz-ququq-busbox-4-camper-elektrovan/",
+     "title": "Test: VW ID.Buzz als Campingfahrzeug - Geht das?",
+     "publisher": "promobil",
+     "date": "2026-11-01"
+    },
+    {
+     "url": "https://www.elektroauto-news.net/news/camping-vw-id-buzz-ququq",
+     "title": "Camping im VW ID.Buzz: Es klappt, mit Abstrichen",
+     "publisher": "elektroauto-news.net",
+     "date": "2026-11-01"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "note": {
+       "en": "passenger and cargo per Auto Zeitung; promobil test used the short-wheelbase passenger ID. Buzz",
+       "de": "Pkw und Cargo laut Auto Zeitung; promobil testete im Pkw-ID. Buzz mit kurzem Radstand",
+       "nl": "personen- en bestelversie volgens Auto Zeitung; promobil testte in de personen-ID. Buzz met korte wielbasis",
+       "fr": "versions passagers et utilitaire selon Auto Zeitung ; promobil a testé dans l’ID. Buzz passagers à empattement court"
+      }
+     }
+    ],
+    "fits_also_ice": null,
+    "box_weight_kg": 62,
+    "install_min": null,
+    "bed_cm": "195 x 125",
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": true
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": false
+  },
+  {
+   "id": "vw-id-buzz-reimo-campingbox-m",
+   "name": "Reimo CampingBox M (ID. Buzz)",
+   "converter": {
+    "name": "Reimo",
+    "country": "DE",
+    "url": "https://www.reimo.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 1529,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": false,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": "in stock (shop listing)",
+     "steering": "LHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Rear kitchen with sink, cooking while standing; compressor cooler optional",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 1,
+    "kit.box_weight_kg": 1,
+    "kit.tool_free": 0,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Universal camping box that Reimo explicitly lists for the ID. Buzz; installs without tools in a few minutes and can be taken out for storage",
+    "Special bed attachment for the ID. Buzz sold separately (C-Box M ID_Buzz)"
+   ],
+   "caveats": [
+    "Universal mini-camper box (also for Caddy, Berlingo, Proace and others), not built for the ID. Buzz alone",
+    "Price €1,529 for the box only; the bed attachment is a separate item (€1,239 for the ID. Buzz version)",
+    "Box measures 1110 x 475 x 740 mm and weighs 70.68 kg, which affects range and payload",
+    "Installation time is given only as 'a few minutes'"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reimo.com/camping-shop/campingbus-zubehoer/volkswagen-id.-buzz-zubehoer/",
+     "title": "Volkswagen ID. Buzz Zubehör",
+     "publisher": "Reimo",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://www.reimo.com/en/camper-van-conversion-shop/mini-camper-van-conversion/caddy-camper-conversion-swb/3533/reimo-campingbox-m-for-vw-caddy-since-2003-and-other-mini-campervans?c=7757",
+     "title": "REIMO CampingBox M",
+     "publisher": "Reimo",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "note": null
+     }
+    ],
+    "fits_also_ice": true,
+    "box_weight_kg": 70.68,
+    "install_min": null,
+    "bed_cm": null,
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": true
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "mercedes-eqv-reimo-moebelmodule",
+   "name": "Reimo furniture modules and sleeper bench (Mercedes EQV)",
+   "converter": {
+    "name": "Reimo",
+    "country": "DE",
+    "url": "https://www.reimo.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Mercedes-Benz",
+    "model": "EQV",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 6700,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2025-03-15",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Kitchen module with water and storage for a cartridge stove, 26 l cooler",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 0,
+    "kit.tool_free": 0,
+    "kit.seats_kept": 0,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Two furniture modules and a two-seat sleeper bench that mount on the EQV's factory rail system",
+    "Installed and removed without tools; with the two single seats refitted the EQV is a six-seater again"
+   ],
+   "caveats": [
+    "Price 'from €6,700 for the conversion' comes from the March 2025 promobil overview; VAT status not stated and the 2022 article gives no price",
+    "A lift roof (up to four sleepers) is offered separately by Reimo and is not part of the module price quoted",
+    "Reimo's own shop page for the EQV modules was not found on 2 Nov 2026; current availability not confirmed",
+    "Module weights and bed size are not stated"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/reimo-campingmodule-mercedes-benz-eqv/",
+     "title": "Reimo-Ausbau für Mercedes-Benz EQV",
+     "publisher": "promobil",
+     "date": "2022-08-02"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/elektrische-campingfahrzeuge-2024-marktuebersicht-elektro-campervan/",
+     "title": "Marktübersicht 2025: Elektro-Campingbusse und E-Wohnmobile",
+     "publisher": "promobil",
+     "date": "2025-03-15"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "stale"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Mercedes-Benz",
+      "model": "EQV",
+      "note": null
+     },
+     {
+      "make": "Mercedes-Benz",
+      "model": "eVito",
+      "note": {
+       "en": "named by promobil: rail system also in e Vito",
+       "de": "laut promobil: Schienensystem auch im eVito",
+       "nl": "volgens promobil: railsysteem ook in de eVito",
+       "fr": "selon promobil : système de rails aussi dans l’eVito"
+      }
+     }
+    ],
+    "fits_also_ice": true,
+    "box_weight_kg": null,
+    "install_min": null,
+    "bed_cm": null,
+    "seats_kept": true,
+    "kitchen": true,
+    "tool_free": true
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "mercedes-eqv-sortimo-ch",
+   "name": "Sortimo EQV Camping Modules",
+   "converter": {
+    "name": "Sortimo",
+    "country": "CH",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Mercedes-Benz",
+    "model": "EQV 300",
+    "variant": "90 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "CH",
+     "status": "available",
+     "price": {
+      "amount": 3458,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2024-02-01",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 2,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "gas"
+   },
+   "spec_sources": {
+    "berths": 0,
+    "heating_fuel": 1,
+    "cooking_fuel": 2,
+    "kit.seats_kept": 3,
+    "kit.kitchen": 3,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Furniture modules; the bench seat converts into a bed for two",
+    "Mercedes showed the EQV with a Sortimo conversion as a camper"
+   ],
+   "caveats": [
+    "Price for the conversion only; the base vehicle is bought separately. Furniture modules from €3,458; the Mercedes EQV base price is €68,008.",
+    "Sold in Switzerland only; promobil (Feb 2024): kitchen system CHF 3,585 (about €3,458), multifunction box with kitchen and bed CHF 4,787 (about €4,620)",
+    "Current availability not confirmed on Sortimo's site"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-campervans-ueberblick/",
+     "title": "Elektro-Campervans mit Mercedes-EQV-Basis im Überblick",
+     "publisher": "promobil",
+     "date": "2024-02-01"
+    },
+    {
+     "url": "https://www.autobild.de/artikel/mercedes-benz-eqv-sortimo-elektromobil-camper-reichweite-preis-21763339.html",
+     "title": "Mercedes-Benz EQV Sortimo: Elektromobil, Camper, Reichweite, Preis",
+     "publisher": "Auto Bild",
+     "date": "2022"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-ecamper-elektro-sortimo-2022-elektro/",
+     "title": "Mercedes-Benz EQV eCamper Sortimo-Ausbau (2022)",
+     "publisher": "promobil",
+     "date": "2022"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-campervans-ueberblick/",
+     "title": "Elektro-Campervans mit Mercedes-EQV-Basis im Überblick",
+     "publisher": "promobil",
+     "date": "2024-02-01"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Mercedes-Benz",
+      "model": "EQV",
+      "note": null
+     }
+    ],
+    "fits_also_ice": null,
+    "box_weight_kg": null,
+    "install_min": null,
+    "bed_cm": null,
+    "seats_kept": true,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": false
+  },
+  {
+   "id": "vw-id-buzz-tonke-buzz-module",
+   "name": "Tonke Buzz Module (ID. Buzz)",
+   "converter": {
+    "name": "Tonke",
+    "country": "NL",
+    "url": "https://www.tonke.eu"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": "short wheelbase"
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "EU",
+     "status": "available",
+     "price": {
+      "amount": 5896,
+      "currency": "EUR",
+      "incl_vat": false,
+      "from": true,
+      "as_of": "2024-11-01",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Small kitchen unit with induction hobs",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 0,
+    "kit.bed_cm": 0,
+    "kit.fits": 0,
+    "kit.kitchen": 0
+   },
+   "highlights": [
+    "Furniture module for the short-wheelbase ID. Buzz that can be taken out again, with a 150 x 200 cm bed above the wooden module",
+    "Small kitchen with induction hobs; one outer rear seat is folded down for cooking"
+   ],
+   "caveats": [
+    "Module price only, excluding VAT; the same article lists €66,374 for the fully converted bus",
+    "Sources are from 2024; Tonke's own ID. Buzz page now shows the Trail and Explorer campers (long wheelbase) and no stand-alone module (checked 2 Nov 2026), so the module may no longer be sold separately",
+    "Installation time and module weight are not stated"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/tonke-vw-id-buzz-campervan/",
+     "title": "Tonke stellt Möbelmodul für den Volkswagen ID. Buzz vor",
+     "publisher": "promobil",
+     "date": "2024-04-09"
+    },
+    {
+     "url": "https://www.autozeitung.de/vw-id-buzz-wohnmobile-uebersicht-207561.html",
+     "title": "Fünf Camper-Umbauten: So wird der VW ID. Buzz zum Wohnmobil",
+     "publisher": "Auto Zeitung",
+     "date": "2024-11-01"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "stale"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "note": {
+       "en": "short wheelbase",
+       "de": "kurzer Radstand",
+       "nl": "korte wielbasis",
+       "fr": "empattement court"
+      }
+     }
+    ],
+    "fits_also_ice": null,
+    "box_weight_kg": null,
+    "install_min": null,
+    "bed_cm": "200 x 150",
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "fiat-e-doblo-vanessa-campingmodule",
+   "name": "VanEssa camping modules (Fiat E-Doblo)",
+   "converter": {
+    "name": "VanEssa mobilcamping",
+    "country": "DE",
+    "url": "https://vanessa-mobilcamping.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Fiat",
+    "model": "E-Doblo",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 2295,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Rear kitchen: sink, removable single-burner gas stove, drawers, cooler drawer (compressor cooler optional)",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 1,
+    "kit.box_weight_kg": 1,
+    "kit.install_min": 1,
+    "kit.bed_cm": 2,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Removable rear kitchen box (52 kg), installed in about 5 minutes according to the supplier; no changes to the vehicle claimed",
+    "Optional sleeping system that docks to the kitchen: double bed 189 x 120 cm (from €1,445)"
+   ],
+   "caveats": [
+    "Price covers the camping modules only; the vehicle is bought separately. Rear kitchen from €2,295 incl. VAT, sleeping system from €1,445 (shop prices, 2026-11-02)",
+    "Single-burner gas stove, not induction; the cooler drawer is prepared for a compressor cooler that is not included",
+    "The same modules are offered for the combustion versions of this model line (Doblo III)"
+   ],
+   "sources": [
+    {
+     "url": "https://vanessa-mobilcamping.de/produkte/fiat/e-doblo/",
+     "title": "Campingmodule: VanEssa Campingmodule (Fiat E-Doblo)",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/heckkueche-fiat-doblo3-silber/",
+     "title": "VanEssa Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/schlafsystem-zur-heckkueche-fiat-doblo3/",
+     "title": "VanEssa Schlafsystem zur Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Fiat",
+      "model": "E-Doblo",
+      "note": {
+       "en": "Doblo III",
+       "de": "Doblo III",
+       "nl": "Doblo III",
+       "fr": "Doblo III"
+      }
+     }
+    ],
+    "fits_also_ice": true,
+    "box_weight_kg": 52,
+    "install_min": 5,
+    "bed_cm": "189 x 120",
+    "seats_kept": true,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "fiat-e-scudo-vanessa-campingmodule",
+   "name": "VanEssa camping modules (Fiat E-Scudo / E-Ulysse)",
+   "converter": {
+    "name": "VanEssa mobilcamping",
+    "country": "DE",
+    "url": "https://vanessa-mobilcamping.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Fiat",
+    "model": "E-Scudo / E-Ulysse",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 2395,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Rear kitchen: sink, removable single-burner gas stove, drawers, cooler drawer (compressor cooler optional)",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 1,
+    "kit.box_weight_kg": 1,
+    "kit.install_min": 1,
+    "kit.bed_cm": 2,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Removable rear kitchen box (59 kg), installed in about 5 minutes according to the supplier; no changes to the vehicle claimed",
+    "Optional sleeping system that docks to the kitchen: double bed 189 x 136 cm (from €1,695)"
+   ],
+   "caveats": [
+    "Price covers the camping modules only; the vehicle is bought separately. Rear kitchen from €2,395 incl. VAT, sleeping system from €1,695 (shop prices, 2026-11-02)",
+    "Single-burner gas stove, not induction; the cooler drawer is prepared for a compressor cooler that is not included",
+    "The same modules are offered for the combustion versions of this model line (Scudo / Ulysse)"
+   ],
+   "sources": [
+    {
+     "url": "https://vanessa-mobilcamping.de/produkte/fiat/ulysse-e-ulysse-scudo-e-scudo/",
+     "title": "Campingmodule: VanEssa Campingmodule (Fiat E-Scudo / E-Ulysse)",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/heckkueche-fiat-scudo3-silber/",
+     "title": "VanEssa Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/schlafsystem-surfer-geteilt-zur-heckkueche-fiat-e-scudo/",
+     "title": "VanEssa Schlafsystem zur Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Fiat",
+      "model": "E-Scudo",
+      "note": {
+       "en": "from Dec 2021",
+       "de": "ab Dez. 2021",
+       "nl": "vanaf dec. 2021",
+       "fr": "à partir de déc. 2021"
+      }
+     },
+     {
+      "make": "Fiat",
+      "model": "E-Ulysse",
+      "note": {
+       "en": "from Mar 2022",
+       "de": "ab März 2022",
+       "nl": "vanaf maart 2022",
+       "fr": "à partir de mars 2022"
+      }
+     }
+    ],
+    "fits_also_ice": true,
+    "box_weight_kg": 59,
+    "install_min": 5,
+    "bed_cm": "189 x 136",
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "kia-pv5-vanessa-campingmodule",
+   "name": "VanEssa camping modules (Kia PV5 Passenger)",
+   "converter": {
+    "name": "VanEssa mobilcamping",
+    "country": "DE",
+    "url": "https://vanessa-mobilcamping.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Passenger",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 2575,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Rear kitchen: sink, removable single-burner gas stove, drawers, cooler drawer (compressor cooler optional)",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 1,
+    "kit.box_weight_kg": 1,
+    "kit.install_min": 1,
+    "kit.bed_cm": 2,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Removable rear kitchen box (52 kg), installed in about 5 minutes according to the supplier; no changes to the vehicle claimed",
+    "Optional sleeping system that docks to the kitchen: double bed 189 x 143 cm (from €1,695)"
+   ],
+   "caveats": [
+    "Price covers the camping modules only; the vehicle is bought separately. Rear kitchen from €2,575 incl. VAT, sleeping system from €1,695 (shop prices, 2026-11-02)",
+    "Single-burner gas stove, not induction; the cooler drawer is prepared for a compressor cooler that is not included"
+   ],
+   "sources": [
+    {
+     "url": "https://vanessa-mobilcamping.de/produkte/kia/pv5-passenger/",
+     "title": "Campingmodule: VanEssa Campingmodule (Kia PV5 Passenger)",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/heckkueche-kia-pv5-korpus-graphit/",
+     "title": "VanEssa Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/schlafsystem-surfer-geteilt-zur-heckkueche-graphit-kia-pv5/",
+     "title": "VanEssa Schlafsystem zur Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Kia",
+      "model": "PV5 Passenger",
+      "note": null
+     }
+    ],
+    "fits_also_ice": false,
+    "box_weight_kg": 52,
+    "install_min": 5,
+    "bed_cm": "189 x 143",
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "nissan-townstar-ev-vanessa-campingmodule",
+   "name": "VanEssa camping modules (Nissan Townstar EV)",
+   "converter": {
+    "name": "VanEssa mobilcamping",
+    "country": "DE",
+    "url": "https://vanessa-mobilcamping.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Nissan",
+    "model": "Townstar EV",
+    "variant": "Kombi MY23"
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 2295,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Rear kitchen: sink, removable single-burner gas stove, drawers, cooler drawer (compressor cooler optional)",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 1,
+    "kit.box_weight_kg": 1,
+    "kit.install_min": 1,
+    "kit.bed_cm": 2,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Removable rear kitchen box (52 kg), installed in about 5 minutes according to the supplier; no changes to the vehicle claimed",
+    "Optional sleeping system that docks to the kitchen: double bed 189 x 118 cm (from €1,020)"
+   ],
+   "caveats": [
+    "Price covers the camping modules only; the vehicle is bought separately. Rear kitchen from €2,295 incl. VAT, sleeping system from €1,020 (shop prices, 2026-11-02)",
+    "Single-burner gas stove, not induction; the cooler drawer is prepared for a compressor cooler that is not included",
+    "The same modules are offered for the combustion versions of this model line (Townstar / NV250)"
+   ],
+   "sources": [
+    {
+     "url": "https://vanessa-mobilcamping.de/produkte/nissan/townstar-und-nv250/",
+     "title": "Campingmodule: VanEssa Campingmodule (Nissan Townstar EV)",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/heckkueche-nissan-townstar-silber/",
+     "title": "VanEssa Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/schlafsystem-kueche-geteilt-nissan-townstar/",
+     "title": "VanEssa Schlafsystem zur Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Nissan",
+      "model": "Townstar EV",
+      "note": {
+       "en": "passenger version, from 2023 (MY23)",
+       "de": "Kombi, ab 2023 (MJ 23)",
+       "nl": "personenversie, vanaf 2023 (MJ23)",
+       "fr": "version passagers, à partir de 2023 (MY23)"
+      }
+     }
+    ],
+    "fits_also_ice": true,
+    "box_weight_kg": 52,
+    "install_min": 5,
+    "bed_cm": "189 x 118",
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "renault-kangoo-e-tech-vanessa-campingmodule",
+   "name": "VanEssa camping modules (Renault Kangoo E-Tech)",
+   "converter": {
+    "name": "VanEssa mobilcamping",
+    "country": "DE",
+    "url": "https://vanessa-mobilcamping.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Renault",
+    "model": "Kangoo E-Tech",
+    "variant": "Kangoo III / Grand Kangoo III"
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 2295,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Rear kitchen: sink, removable single-burner gas stove, drawers, cooler drawer (compressor cooler optional)",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 1,
+    "kit.box_weight_kg": 1,
+    "kit.install_min": 1,
+    "kit.bed_cm": 2,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Removable rear kitchen box (52 kg), installed in about 5 minutes according to the supplier; no changes to the vehicle claimed",
+    "Optional sleeping system that docks to the kitchen: double bed 189 x 118 cm (from €1,020)"
+   ],
+   "caveats": [
+    "Price covers the camping modules only; the vehicle is bought separately. Rear kitchen from €2,295 incl. VAT, sleeping system from €1,020 (shop prices, 2026-11-02)",
+    "Single-burner gas stove, not induction; the cooler drawer is prepared for a compressor cooler that is not included",
+    "The same modules are offered for the combustion versions of this model line (Kangoo III)"
+   ],
+   "sources": [
+    {
+     "url": "https://vanessa-mobilcamping.de/produkte/renault/kangoo/",
+     "title": "Campingmodule: VanEssa Campingmodule (Renault Kangoo E-Tech)",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/heckkueche-renault-kangoo3-silber/",
+     "title": "VanEssa Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/schlafsystem-kueche-geteilt-renault-kangoo3/",
+     "title": "VanEssa Schlafsystem zur Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Renault",
+      "model": "Kangoo E-Tech",
+      "note": {
+       "en": "Kangoo III from Jul 2022, Grand Kangoo III from 2024",
+       "de": "Kangoo III ab Juli 2022, Grand Kangoo III ab 2024",
+       "nl": "Kangoo III vanaf juli 2022, Grand Kangoo III vanaf 2024",
+       "fr": "Kangoo III à partir de juillet 2022, Grand Kangoo III à partir de 2024"
+      }
+     }
+    ],
+    "fits_also_ice": true,
+    "box_weight_kg": 52,
+    "install_min": 5,
+    "bed_cm": "189 x 118",
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "vw-id-buzz-vanessa-campingmodule",
+   "name": "VanEssa camping modules (VW ID. Buzz)",
+   "converter": {
+    "name": "VanEssa mobilcamping",
+    "country": "DE",
+    "url": "https://vanessa-mobilcamping.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz / ID. Buzz Cargo",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "available",
+     "price": {
+      "amount": 2295,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-02",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Rear kitchen: sink, removable single-burner gas stove, drawers, cooler drawer (compressor cooler optional)",
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kitchen": 1,
+    "kit.box_weight_kg": 1,
+    "kit.install_min": 1,
+    "kit.bed_cm": 2,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Removable rear kitchen box (52 kg), installed in about 5 minutes according to the supplier; 'no changes to the vehicle' claimed, but drilling may be needed",
+    "Optional sleeping system that docks to the kitchen: double bed 189 x 136 cm (from €1,695)"
+   ],
+   "caveats": [
+    "Price covers the camping modules only; the vehicle is bought separately. Rear kitchen from €2,295 incl. VAT, sleeping system from €1,695 (shop prices, 2026-11-02)",
+    "Single-burner gas stove, not induction; the cooler drawer is prepared for a compressor cooler that is not included",
+    "Mounting the kitchen on the passenger ID. Buzz is only possible with the original VW sleeping-package fixing points; otherwise holes must be drilled (template supplied). On the long wheelbase the second seat row must be removed"
+   ],
+   "sources": [
+    {
+     "url": "https://vanessa-mobilcamping.de/produkte/volkswagen/id-buzz-und-id-buzz-cargo/",
+     "title": "Campingmodule: VanEssa Campingmodule (VW ID. Buzz)",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/heckkueche-vw-id-buzz-silber/",
+     "title": "VanEssa Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://vanessa-mobilcamping.de/produkt/schlafsystem-surfer-geteilt-zur-heckkueche-vw-id-buzz/",
+     "title": "VanEssa Schlafsystem zur Heckküche",
+     "publisher": "VanEssa mobilcamping",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "note": {
+       "en": "short and long wheelbase",
+       "de": "kurzer und langer Radstand",
+       "nl": "korte en lange wielbasis",
+       "fr": "empattement court et long"
+      }
+     },
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz Cargo",
+      "note": null
+     }
+    ],
+    "fits_also_ice": false,
+    "box_weight_kg": 52,
+    "install_min": 5,
+    "bed_cm": "189 x 136",
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": null
+   },
+   "last_checked": "2026-11-02",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "kia-pv5-vanlab-camping-kit",
+   "name": "VanLab Camping Kit (Kia PV5)",
+   "converter": {
+    "name": "VanLab",
+    "country": "KR",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Passenger",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "KR",
+     "status": "available",
+     "price": {
+      "amount": 2990000,
+      "currency": "KRW",
+      "incl_vat": null,
+      "from": null,
+      "as_of": "2026-02-12",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "Outdoor kitchen with induction hob, drawers, shelf",
+    "v2l": true,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "kitchen": 0,
+    "v2l": 0,
+    "cooking_fuel": 0,
+    "kit.kitchen": 1,
+    "kit.tool_free": 1,
+    "kit.fits": 0
+   },
+   "highlights": [
+    "Plug-in module set (bed + kitchen) instead of a fixed conversion; per a report, assembly needs only a screwdriver",
+    "The PV5's V2L powers the hob and fridge"
+   ],
+   "caveats": [
+    "Kit only (vehicle not included), not a finished camper; price covers the kit only",
+    "Sale so far documented only in Korea; Japan, Europe and the UK 'shortly' according to the manufacturer, no date",
+    "Motor1 DE reports roughly $1,999 (about €1,840) for the kit; Electrek reports ₩2.99 million – figures differ and Europe pricing is unconfirmed"
+   ],
+   "sources": [
+    {
+     "url": "https://electrek.co/2026/02/12/kia-pv5-first-camping-kit-full-on-campsite-in-minutes/",
+     "title": "Kia PV5 first camping kit: full-on campsite in minutes",
+     "publisher": "Electrek",
+     "date": "2026-02-12"
+    },
+    {
+     "url": "https://electrek.co/2026/02/12/kia-pv5-first-camping-kit-full-on-campsite-in-minutes/",
+     "title": "Kia's electric van gets its first camping kit that turns the PV5 into a campsite in minutes",
+     "publisher": "Electrek",
+     "date": "2026-02-12"
+    }
+   ],
+   "last_checked": "2026-11-02",
+   "kind": "kit",
+   "verification": {
+    "checked": "2026-11-01",
+    "state": "stale"
+   },
+   "kit": {
+    "fits": [
+     {
+      "make": "Kia",
+      "model": "PV5",
+      "note": null
+     }
+    ],
+    "fits_also_ice": false,
+    "box_weight_kg": null,
+    "install_min": null,
+    "bed_cm": null,
+    "seats_kept": null,
+    "kitchen": true,
+    "tool_free": false
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
+   "id": "vw-id-buzz-good-night-package",
+   "name": "Volkswagen ID. Buzz Good Night Package",
+   "converter": {
+    "name": "Volkswagen Commercial Vehicles",
+    "country": "DE",
+    "url": "https://www.volkswagen-nutzfahrzeuge.de"
+   },
+   "factory": true,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": "5-seater"
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "available",
+   "markets": [
+    {
+     "market": "EU",
+     "status": "available",
+     "price": {
+      "amount": 2600,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": false,
+      "as_of": "2026-06-24",
+      "scope": "kit"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": 5,
+    "berths": 2,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Overnight mode keeps the temperature constant via the air conditioning",
+    "kitchen": "No integrated kitchen",
+    "v2l": null,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "none"
+   },
+   "spec_sources": {
+    "seats": 0,
+    "berths": 0,
+    "heating": 0,
+    "kitchen": 0,
+    "heating_fuel": 2,
+    "cooking_fuel": 2,
+    "kit.bed_cm": 4,
+    "kit.tool_free": 3,
+    "kit.fits": 3,
+    "kit.kitchen": 0
+   },
+   "highlights": [
+    "Optional factory package for the ID. Buzz: fold-out bed with firm mattress, concealable table with chairs",
+    "Blackout blinds, ventilation, overnight mode"
+   ],
+   "caveats": [
+    "Factory accessory package for the passenger ID. Buzz, not a camper conversion: fold-out bed (about 2.0 x 1.2 m), table and two chairs, blackout kit, ventilation grilles",
+    "No kitchen, no pop-top; sleeping for two",
+    "Price €2,600 in continental Europe; VAT status not stated in the sources",
+    "UK trim has no date (carwow)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.carwow.co.uk/news/10907/volkswagen-id-buzz-camper-revealed",
+     "title": "You can now get the VW ID Buzz as an electric retro camper – but there's a catch",
+     "publisher": "Carwow",
+     "date": "2026-06-24"
+    },
+    {
+     "url": "https://www.meinauto.de/news/2026/06/zzz-im-buzz-vw-spendiert-dem-elektro-bulli-ein-bett",
+     "title": "ZZZ im Buzz: VW spendiert dem Elektro-Bulli ein Bett",
+     "publisher": "meinauto.de",
+     "date": "2026-06"
+    },
+    {
+     "url": "https://www.carwow.co.uk/news/10907/volkswagen-id-buzz-camper-revealed",
+     "title": "Volkswagen ID. Buzz camper revealed",
+     "publisher": "Carwow",
+     "date": "2026-06"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/endlich-vw-macht-den-id-buzz-zum-camper-aber-ist-das-gute-nacht-paket-nur-ein-notnagel/",
+     "title": "Endlich! VW macht den ID.Buzz zum Camper – oder ist das Gute-Nacht-Paket nur ein Notnagel?",
+     "publisher": "promobil",
+     "date": "2026-06-18"
+    },
+    {
+     "url": "https://www.meinauto.de/news/2026/06/zzz-im-buzz-vw-spendiert-dem-elektro-bulli-ein-bett",
+     "title": "ZZZ im Buzz: VW spendiert dem Elektro-Bulli ein Bett",
+     "publisher": "meinauto.de",
+     "date": "2026-06"
+    }
+   ],
+   "last_checked": "2026-11-06",
+   "verification": {
+    "checked": "2026-11-05",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "note": {
+       "en": "passenger versions, both wheelbases, all seat configurations",
+       "de": "Pkw-Versionen, beide Radstände, alle Sitzvarianten",
+       "nl": "personenversies, beide wielbases, alle zitindelingen",
+       "fr": "versions passagers, deux empattements, toutes configurations de sièges"
+      }
+     }
+    ],
+    "fits_also_ice": false,
+    "box_weight_kg": null,
+    "install_min": null,
+    "bed_cm": "200 x 120",
+    "seats_kept": null,
+    "kitchen": false,
+    "tool_free": true
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "kia-pv5-boxio-rack",
+   "name": "Boxio RACK Box + Bed Bundle XL/L (Kia PV5, ID. Buzz)",
+   "converter": {
+    "name": "Boxio",
+    "country": "DE",
+    "url": "https://boxio.de"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5",
+    "variant": null
+   },
+   "drivetrain": "bev",
+   "body": "box",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "preorder",
+     "price": {
+      "amount": 1896,
+      "currency": "EUR",
+      "incl_vat": true,
+      "from": true,
+      "as_of": "2026-11-05",
+      "scope": "kit"
+     },
+     "deliveries": "about 4 weeks (made to order)",
+     "steering": "LHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": null,
+    "range_cycle": null,
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": null,
+    "v2l": null,
+    "tow_kg": null
+   },
+   "spec_sources": {
+    "kit.box_weight_kg": 0,
+    "kit.install_min": 2,
+    "kit.tool_free": 2,
+    "kit.fits": 2
+   },
+   "highlights": [
+    "Modular wood rack system (Euro-box compatible) that folds into a shelf, table or bed; the supplier describes the PV5 conversion as 'within 15 minutes' and without drilling",
+    "Boxio names the Kia PV5 and the long-wheelbase VW ID. Buzz in its own blog articles"
+   ],
+   "caveats": [
+    "Price for the camping box and bed bundle only; vehicle bought separately. Mattress and Euro-boxes are not included",
+    "Universal system, not built for one vehicle. It counts as load and must be secured: Boxio sells lashing straps and says to strap it down unless it sits in the boot right behind the folded-up rear bench. In the PV5 the floor anchors are often missing or weak (Boxio's PV5 article); for bolting, a self-made floor plate is needed",
+    "XL bundle for the PV5 1,996 euros, L bundle for the long ID. Buzz 1,896 euros. Product pages show 'pre-order'; made to order, ship time about 4 weeks (checked 5 Nov 2026)",
+    "Weight 57.72 kg for the XL bundle and 54.75 kg for the L bundle (two bed and two box modules each); bed area not stated as a single figure. No photos in the PV5 yet, the pictures show the ID. Buzz"
+   ],
+   "sources": [
+    {
+     "url": "https://boxio.de/products/boxio-rack-box-bed-bundle-xl-modulare-campingbox",
+     "title": "BOXIO RACK BOX + BED BUNDLE XL",
+     "publisher": "Boxio",
+     "date": "2026-11-05"
+    },
+    {
+     "url": "https://boxio.de/products/boxio-rack-bundle-l-modulare-campingbox",
+     "title": "BOXIO RACK BOX + BED BUNDLE L",
+     "publisher": "Boxio",
+     "date": "2026-11-02"
+    },
+    {
+     "url": "https://boxio.de/blogs/news/camping-mit-kia-pv5",
+     "title": "Camping im KIA PV5",
+     "publisher": "Boxio",
+     "date": "2026-04-20"
+    },
+    {
+     "url": "https://boxio.de/blogs/news/camping-im-vw-id-buzz",
+     "title": "Camping im VW ID. Buzz",
+     "publisher": "Boxio",
+     "date": "2025-09-16"
+    }
+   ],
+   "verification": {
+    "checked": "2026-11-05",
+    "state": "verified"
+   },
+   "kind": "kit",
+   "kit": {
+    "fits": [
+     {
+      "make": "Kia",
+      "model": "PV5",
+      "note": {
+       "en": "Boxio recommends the XL bundle (1,996 euros) for the PV5",
+       "de": "Boxio empfiehlt für den PV5 das XL-Bundle (1.996 Euro)",
+       "nl": "Boxio raadt voor de PV5 de XL-bundel aan (1.996 euro)",
+       "fr": "Boxio recommande le pack XL (1 996 euros) pour le PV5"
+      }
+     },
+     {
+      "make": "Volkswagen",
+      "model": "ID. Buzz",
+      "note": {
+       "en": "long wheelbase, L bundle (1,896 euros) per Boxio's blog",
+       "de": "langer Radstand, L-Bundle (1.896 Euro) laut Boxios Blog",
+       "nl": "lange wielbasis, L-bundel (1.896 euro) volgens de blog van Boxio",
+       "fr": "empattement long, pack L (1 896 euros) selon le blog de Boxio"
+      }
+     }
+    ],
+    "fits_also_ice": true,
+    "box_weight_kg": 57.72,
+    "install_min": 15,
+    "bed_cm": null,
+    "seats_kept": null,
+    "kitchen": false,
+    "tool_free": true
+   },
+   "last_checked": "2026-11-05",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  }
+ ]
+}

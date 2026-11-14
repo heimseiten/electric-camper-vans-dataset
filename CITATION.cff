@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it and link to https://www.evcamper.guide/ ."
+title: "Electric Camper Vans Dataset"
+type: dataset
+authors:
+  - family-names: Hegmans
+    given-names: Niels
+    email: info@heimseiten.de
+publisher:
+  name: "EV Camper Guide"
+license: CC-BY-4.0
+url: "https://www.evcamper.guide/"
+repository-code: "https://github.com/heimseiten/electric-camper-vans-dataset"
+date-released: "2026-11-14"
