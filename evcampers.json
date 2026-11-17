@@ -2,7 +2,7 @@
  "name": "EV Camper Guide dataset",
  "license": "CC BY 4.0",
  "attribution": "EV Camper Guide (heimseiten.de)",
- "generated": "2026-11-13",
+ "generated": "2026-11-16",
  "fx": {
   "source": "European Central Bank euro foreign exchange reference rates",
   "date": "2026-10-30",
@@ -710,6 +710,139 @@
    "fossil_free": true
   },
   {
+   "id": "vw-id-buzz-ventje",
+   "name": "Ventje ID",
+   "converter": {
+    "name": "Ventje",
+    "country": "NL",
+    "url": "https://ventje.com/en/modellen/ventje-id/"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "ID. Buzz",
+    "variant": "short wheelbase"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "NL",
+     "status": "orderable",
+     "price": {
+      "amount": 85000,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-11-16"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    },
+    {
+     "market": "BE",
+     "status": "orderable",
+     "price": {
+      "amount": 85000,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-11-16"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    },
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 85000,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-11-16"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 2
+    }
+   ],
+   "specs": {
+    "battery_kwh": null,
+    "battery_kwh_type": "unknown",
+    "range_km": 460,
+    "range_cycle": "WLTP",
+    "dc_kw": 185,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": 4700,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": 4,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "2-burner induction hob, usable inside and from the tailgate; fridge; induction runs on the house battery",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "range_km": 0,
+    "dc_kw": 0,
+    "length_mm": 0,
+    "seats": 0,
+    "berths": 0,
+    "kitchen": 0,
+    "cooking_fuel": 0
+   },
+   "highlights": [
+    "Two double beds: about 1.95 x 1.35 m below, about 2 x 1.15 m in the pop-up roof",
+    "2 or 4 belted seats via a removable belt frame (max. 2 Isofix)",
+    "House battery and solar panel run lights, fridge, sockets and the induction hob without hook-up",
+    "Fast charging 10-80 % in about 26 minutes, up to 185 kW"
+   ],
+   "caveats": [
+    "Maker states about 400 km in practice versus 460 km WLTP",
+    "Battery size and heating are not stated on the maker's page",
+    "No fixed toilet; only an integrated toilet board",
+    "Price from €85,000 including van; maker does not say whether VAT is included"
+   ],
+   "sources": [
+    {
+     "url": "https://ventje.com/en/modellen/ventje-id/",
+     "title": "Ventje ID. Buzz camper",
+     "publisher": "Ventje",
+     "date": "2026-11-16"
+    },
+    {
+     "url": "https://ventje.com/nl-be/modellen/ventje-id/",
+     "title": "Ventje ID. Buzz camper (België)",
+     "publisher": "Ventje",
+     "date": "2026-11-16"
+    },
+    {
+     "url": "https://ventje.com/de/modelle/ventje-id-buzz-camper/",
+     "title": "Ventje ID. Buzz Camper",
+     "publisher": "Ventje",
+     "date": "2026-11-16"
+    }
+   ],
+   "last_checked": "2026-11-16",
+   "verification": {
+    "checked": "2026-11-16",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
    "id": "mercedes-eqv-tonke",
    "name": "Tonke EQV",
    "converter": {
@@ -955,6 +1088,153 @@
    "is_conv": false,
    "own_vehicle": false,
    "fossil_free": true
+  },
+  {
+   "id": "vw-e-transporter-ventje-t7",
+   "name": "Ventje T7 (electric)",
+   "converter": {
+    "name": "Ventje",
+    "country": "NL",
+    "url": "https://ventje.com/en/modellen/ventje-t7-camper/"
+   },
+   "factory": false,
+   "base": {
+    "make": "Volkswagen",
+    "model": "e-Transporter",
+    "variant": "70.9 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "NL",
+     "status": "orderable",
+     "price": {
+      "amount": 95000,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-11-16"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 0
+    },
+    {
+     "market": "BE",
+     "status": "orderable",
+     "price": {
+      "amount": 90000,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-11-16"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 2
+    },
+    {
+     "market": "DE",
+     "status": "orderable",
+     "price": {
+      "amount": 90000,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-11-16"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 3
+    }
+   ],
+   "specs": {
+    "battery_kwh": 70.9,
+    "battery_kwh_type": "unknown",
+    "range_km": 370,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": 5050,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": 7,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Parking heater (type not stated); underfloor heating optional",
+    "kitchen": "2-burner induction hob, L-shaped with extra worktop, usable inside and from the tailgate; induction runs on the house battery",
+    "v2l": null,
+    "tow_kg": null,
+    "cooking_fuel": "electric",
+    "fossil_variants": true
+   },
+   "spec_sources": {
+    "battery_kwh": 1,
+    "range_km": 1,
+    "length_mm": 1,
+    "seats": 1,
+    "berths": 1,
+    "heating": 1,
+    "kitchen": 1,
+    "cooking_fuel": 1
+   },
+   "highlights": [
+    "Two lengths: 5.05 m or 5.45 m; fixed toilet beside the lower bed in the long version",
+    "2 to 7 belted seats via a removable belt frame",
+    "Electric version: 136, 218 or 286 hp, optional 4Motion all-wheel drive, 10-80 % in about 29 minutes",
+    "Two double beds: about 2.1 x 1.4 m below, about 2 x 1.3 m in the pop-up roof"
+   ],
+   "caveats": [
+    "Ventje's own pages disagree on the starting price: €95,000 (Dutch page, and the FAQ on every language version) versus €90,000 (spec table of the English, German and Belgian pages)",
+    "The starting price covers all three drivetrains (electric, plug-in hybrid, diesel); the electric surcharge is not stated, and VAT is not mentioned",
+    "Ventje does not say whether the parking heater runs on fuel or electricity",
+    "No delivery date stated; Ventje presented the T7 on 30 May 2026"
+   ],
+   "sources": [
+    {
+     "url": "https://ventje.com/modellen/t7-camper/",
+     "title": "Ventje T7 camper",
+     "publisher": "Ventje",
+     "date": "2026-11-16"
+    },
+    {
+     "url": "https://ventje.com/en/modellen/ventje-t7-camper/",
+     "title": "Ventje T7 camper",
+     "publisher": "Ventje",
+     "date": "2026-11-16"
+    },
+    {
+     "url": "https://ventje.com/nl-be/modellen/ventje-t7-camper/",
+     "title": "Ventje T7 camper (België)",
+     "publisher": "Ventje",
+     "date": "2026-11-16"
+    },
+    {
+     "url": "https://ventje.com/de/modelle/ventje-t7-camper/",
+     "title": "Ventje T7 Camper",
+     "publisher": "Ventje",
+     "date": "2026-11-16"
+    },
+    {
+     "url": "https://ventje.com/nieuws/ventje-onthult-nieuw-model-met-zeven-gordelplekken/",
+     "title": "Ventje onthult nieuw model met zeven gordelplekken",
+     "publisher": "Ventje",
+     "date": "2026-04-20"
+    }
+   ],
+   "last_checked": "2026-11-16",
+   "verification": {
+    "checked": "2026-11-16",
+    "state": "conflict"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
   },
   {
    "id": "wavecamper-flex-e-line",
@@ -1529,7 +1809,7 @@
       "currency": "USD",
       "incl_vat": false,
       "from": true,
-      "as_of": "2026-11-01",
+      "as_of": "2026-11-16",
       "scope": "conversion"
      },
      "deliveries": "Installation takes 5 working days in Seattle; about 50 delivered, about 50 in the queue",
@@ -1568,7 +1848,7 @@
    "caveats": [
     "Price for the conversion only; the base vehicle is bought separately (customer-supplied ID. Buzz). Roof only, no kitchen build.",
     "Solid-roof vans cost $1,495 extra",
-    "The maker announced a price rise to $17,995 from 1 October (year not stated); the page still showed $15,995 on 1 Nov 2026.",
+    "The maker has announced a price rise to $17,995 in 2027 (no exact date).",
     "Installation only in Seattle, WA"
    ],
    "sources": [
@@ -1576,13 +1856,13 @@
      "url": "https://www.peacevans.com/buzz-pop-top",
      "title": "ID. Buzz Pop Top",
      "publisher": "Peace Vans",
-     "date": "2026-11-01"
+     "date": "2026-11-16"
     }
    ],
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-16",
    "verification": {
-    "checked": "2026-11-01",
-    "state": "conflict"
+    "checked": "2026-11-16",
+    "state": "verified"
    },
    "kind": "camper",
    "is_conv": false,
