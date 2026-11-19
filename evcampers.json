@@ -2,7 +2,7 @@
  "name": "EV Camper Guide dataset",
  "license": "CC BY 4.0",
  "attribution": "EV Camper Guide (heimseiten.de)",
- "generated": "2026-11-16",
+ "generated": "2026-11-19",
  "fx": {
   "source": "European Central Bank euro foreign exchange reference rates",
   "date": "2026-10-30",
@@ -153,20 +153,20 @@
      "market": "DE",
      "status": "orderable",
      "price": {
-      "amount": 25530,
+      "amount": 23350,
       "currency": "EUR",
       "incl_vat": false,
       "from": true,
-      "as_of": "2026-04-03"
+      "as_of": "2026-11-18"
      },
-     "deliveries": "Market launch planned for May 2026; current availability not confirmed",
+     "deliveries": null,
      "steering": "LHD",
-     "source": 0
+     "source": 3
     }
    ],
    "specs": {
     "battery_kwh": 23.5,
-    "battery_kwh_type": "unknown",
+    "battery_kwh_type": "net",
     "range_km": 230,
     "range_cycle": "maker",
     "dc_kw": null,
@@ -185,7 +185,7 @@
     "tow_kg": null
    },
    "spec_sources": {
-    "battery_kwh": 0,
+    "battery_kwh": 5,
     "range_km": 0,
     "power_kw": 0,
     "length_mm": 0,
@@ -203,8 +203,7 @@
     "Delivered as an empty box for self-conversion; no bed, storage or kitchen from the factory",
     "Maximum speed about 71 km/h; 15 kW (20 PS)",
     "Range 120-180 km with the 15 kWh battery, 180-230 km with 23.5 kWh",
-    "Price is net (€25,530 plus VAT); another article lists €25,350 and emobility.energy €23,350, so sources disagree",
-    "Order status comes from April 2026 reports; the manufacturer homepage lists no camper-specific price or order page (checked 1 Nov 2026)"
+    "Price is net (€23,350 plus VAT) with the standard 15 kWh battery (120-180 km); the larger 23.5 kWh battery (180-230 km) costs €2,500 net extra (maker product sheet, Nov 2026)"
    ],
    "sources": [
     {
@@ -224,173 +223,31 @@
      "title": "Ari Motors bringt Wohnmobil auf Basis des Ari 458 Pro",
      "publisher": "electrive.net",
      "date": "2026-04-08"
+    },
+    {
+     "url": "https://ari-motors.com/elektro-kleintransporter/ari-458-pro/wohnmobil",
+     "title": "ARI 458 Pro Wohnmobil",
+     "publisher": "ARI Motors",
+     "date": "2026-11-18"
+    },
+    {
+     "url": "https://ari-motors-v2-uploads.s3.eu-central-1.amazonaws.com/pdf_export_ARI_458_Pro_Alkoven_e6a9590f88_9845073b6a.pdf",
+     "title": "Produktblatt ARI 458 Pro Alkoven",
+     "publisher": "ARI Motors",
+     "date": "2026-11-18"
+    },
+    {
+     "kind": "mail",
+     "publisher": "ARI Motors",
+     "date": "2026-11-18"
     }
    ],
-   "last_checked": "2026-11-02",
+   "last_checked": "2026-11-18",
    "verification": {
-    "checked": "2026-11-01",
-    "state": "stale"
+    "checked": "2026-11-18",
+    "state": "verified"
    },
    "kind": "camper",
-   "is_conv": false,
-   "own_vehicle": false,
-   "fossil_free": null
-  },
-  {
-   "id": "citroen-e-spacetourer-poessl-e-vanster",
-   "name": "Pössl E-Vanster",
-   "converter": {
-    "name": "Pössl",
-    "country": "DE",
-    "url": null
-   },
-   "factory": false,
-   "base": {
-    "make": "Citroën",
-    "model": "ë-SpaceTourer",
-    "variant": "75 kWh"
-   },
-   "drivetrain": "bev",
-   "body": "pop-top",
-   "status_overall": "orderable",
-   "markets": [
-    {
-     "market": "DE",
-     "status": "orderable",
-     "price": {
-      "amount": 49999,
-      "currency": "EUR",
-      "incl_vat": null,
-      "from": true,
-      "as_of": "2025-11-18"
-     },
-     "deliveries": null,
-     "steering": "LHD",
-     "source": 1
-    },
-    {
-     "market": "CH",
-     "status": "orderable",
-     "price": {
-      "amount": 60000,
-      "currency": "CHF",
-      "incl_vat": null,
-      "from": true,
-      "as_of": null
-     },
-     "deliveries": null,
-     "steering": "LHD",
-     "source": 2
-    }
-   ],
-   "specs": {
-    "battery_kwh": 75,
-    "battery_kwh_type": "unknown",
-    "range_km": 298,
-    "range_cycle": "WLTP",
-    "dc_kw": 100,
-    "ac_kw": 11,
-    "power_kw": 100,
-    "length_mm": 4950,
-    "width_mm": 1920,
-    "height_mm": 1990,
-    "seats": 5,
-    "berths": null,
-    "weight_kg": null,
-    "payload_kg": null,
-    "heating": null,
-    "kitchen": "230-V induction cooker",
-    "v2l": null,
-    "tow_kg": null,
-    "range_real_km": 190,
-    "range_real_note": "promobil first drive, early spring around 10 °C, hilly country roads; extrapolated by promobil from 155 km on an 80 % charge",
-    "cooking_fuel": "electric"
-   },
-   "spec_sources": {
-    "battery_kwh": 2,
-    "range_km": 1,
-    "ac_kw": 0,
-    "power_kw": 2,
-    "length_mm": 0,
-    "width_mm": 0,
-    "height_mm": 0,
-    "seats": 0,
-    "kitchen": 0,
-    "dc_kw": 0,
-    "range_real_km": 3,
-    "cooking_fuel": 5
-   },
-   "highlights": [
-    "Everyday van with modular CampBox, 5 seats / 2-4 berths",
-    "Based on Citroën ë-SpaceTourer, 75 kWh battery, 100 kW motor"
-   ],
-   "caveats": [
-    "Autozeitung (18 Nov 2025): e-Vanster not configurable on the manufacturer website at that time; current order status unconfirmed",
-    "Pössl homepage could not be reached during check; no 2026 price found",
-    "Promobil price from 2022 (€58,499; the same article also gives €55,999); VAT status of the €49,999 price not stated",
-    "Range 250-298 km WLTP depending on source; promobil 2022 test: 155 km test drive",
-    "AC 11 kW and DC 100 kW taken from charging times in the 2022 promobil test (about 7 h at 11 kW, about 45 min at 100 kW for 0-80 %)",
-    "Pop-top body not explicitly confirmed for the e-Vanster in the sources",
-    "50 kWh battery option listed earlier is not supported by the sources and was removed"
-   ],
-   "sources": [
-    {
-     "url": "https://www.promobil.de/neuheiten/poessl-e-vanster-als-elektro-campervan/",
-     "title": "Erste Probefahrt Pössl E-Vanster",
-     "publisher": "promobil",
-     "date": "2022-07-27"
-    },
-    {
-     "url": "https://www.autozeitung.de/poessl-vanster-preis-ausstattung-204871.html",
-     "title": "Pössl Vanster: Alle Details",
-     "publisher": "Auto Zeitung",
-     "date": "2025-11-18"
-    },
-    {
-     "url": "https://openvan.camp/en/news/industry/poessl-evanster-alltagsvan-und-reisemobil-nau",
-     "title": "Pössl E-Vanster (nau-Meldung)",
-     "publisher": "OpenVan.camp",
-     "date": null
-    },
-    {
-     "url": "https://www.promobil.de/neuheiten/poessl-e-vanster-als-elektro-campervan/",
-     "title": "Erste Probefahrt Pössl E-Vanster",
-     "publisher": "promobil",
-     "date": "2026"
-    },
-    {
-     "url": "https://www.autozeitung.de/poessl-vanster-preis-ausstattung-204871.html",
-     "title": "Pössl Vanster: Alle Details zum günstigen Allround-Camper",
-     "publisher": "Auto Zeitung",
-     "date": "2025-11-18"
-    },
-    {
-     "url": "https://www.autobild.de/artikel/poessl-e-vanster-test-21309563.html",
-     "title": "Pössl E-Vanster: Test",
-     "publisher": "Auto Bild",
-     "date": null
-    }
-   ],
-   "last_checked": "2026-11-02",
-   "verification": {
-    "checked": "2026-11-01",
-    "state": "stale"
-   },
-   "kind": "camper",
-   "sister": {
-    "name": "Pössl Vanster (Diesel)",
-    "fuel": "diesel",
-    "price": {
-     "amount": 44999,
-     "currency": "EUR",
-     "market": "DE",
-     "incl_vat": null,
-     "from": true,
-     "as_of": "2025-11-18"
-    },
-    "consumption_l_100km": null,
-    "source": 4
-   },
    "is_conv": false,
    "own_vehicle": false,
    "fossil_free": null
@@ -710,6 +567,114 @@
    "fossil_free": true
   },
   {
+   "id": "kia-pv5-sussex-campervans",
+   "name": "Sussex Campervans Kingfisher",
+   "converter": {
+    "name": "Sussex Campervans",
+    "country": "GB",
+    "url": "https://www.sussexcampervans.com"
+   },
+   "factory": false,
+   "base": {
+    "make": "Kia",
+    "model": "PV5 Cargo",
+    "variant": "Long Range 71.2 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "orderable",
+   "markets": [
+    {
+     "market": "GB",
+     "status": "orderable",
+     "price": {
+      "amount": 68995,
+      "currency": "GBP",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2026-04-16"
+     },
+     "deliveries": "Deliveries ongoing (Sussex by mail, Nov 2026)",
+     "steering": "RHD",
+     "source": 0
+    }
+   ],
+   "specs": {
+    "battery_kwh": 71.2,
+    "battery_kwh_type": "unknown",
+    "range_km": 415,
+    "range_cycle": "WLTP",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "dual-hob induction cooker, 50-L fridge/freezer, microwave",
+    "v2l": true,
+    "tow_kg": null,
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "kitchen": 0,
+    "v2l": 0,
+    "cooking_fuel": 2
+   },
+   "highlights": [
+    "Dual-hob induction cooker, microwave and 50-L fridge/freezer powered via vehicle-to-load",
+    "Pop-up roof bed suitable for a single adult or two children",
+    "WLTP rated 258 miles (415 km) for the base van with the 71-kWh battery"
+   ],
+   "caveats": [
+    "Price is Sussex's 'estimated base price' (New Atlas); VAT status not stated",
+    "Sussex confirms by mail (Nov 2026) that the van can be ordered and that many have already been delivered; a high-top variant with Sussex's own high-top design is also offered, with significantly more interior space",
+    "Sussex website was not reachable during the check",
+    "The 430-mile (about 692 km, Guinness) record comes from the base van, not the camper",
+    "Heating, dimensions and berths not stated; New Atlas gives 416 km WLTP in a second article"
+   ],
+   "sources": [
+    {
+     "url": "https://newatlas.com/campervans/kia-pv5-kingfisher-camper-van/",
+     "title": "Sussex Kingfisher PV5 camper van",
+     "publisher": "New Atlas",
+     "date": "2026-04-16"
+    },
+    {
+     "url": "https://newatlas.com/campervans/kia-pv5-pop-up-camper-sussex/",
+     "title": "Kia PV5 pop-up camper (Sussex)",
+     "publisher": "New Atlas",
+     "date": null
+    },
+    {
+     "url": "https://openvan.camp/en/news/builds/sussex-campervans-hypes-up-kia-pv5-camper",
+     "title": "Sussex Campervans hypes up Kia PV5 camper",
+     "publisher": "OpenVan.camp",
+     "date": null
+    },
+    {
+     "kind": "mail",
+     "publisher": "Sussex Campervans",
+     "date": "2026-11-18"
+    }
+   ],
+   "last_checked": "2026-11-18",
+   "verification": {
+    "checked": "2026-11-18",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
    "id": "vw-id-buzz-ventje",
    "name": "Ventje ID",
    "converter": {
@@ -841,112 +806,6 @@
    "is_conv": false,
    "own_vehicle": false,
    "fossil_free": null
-  },
-  {
-   "id": "mercedes-eqv-tonke",
-   "name": "Tonke EQV",
-   "converter": {
-    "name": "Tonke",
-    "country": "NL",
-    "url": "https://www.tonke.eu/modellen/tonke-eqv/"
-   },
-   "factory": false,
-   "base": {
-    "make": "Mercedes-Benz",
-    "model": "EQV 300",
-    "variant": "90 kWh"
-   },
-   "drivetrain": "bev",
-   "body": "pop-top",
-   "status_overall": "orderable",
-   "markets": [
-    {
-     "market": "EU",
-     "status": "orderable",
-     "price": {
-      "amount": 87964,
-      "currency": "EUR",
-      "incl_vat": null,
-      "from": true,
-      "as_of": "2024-02-01"
-     },
-     "deliveries": null,
-     "steering": "LHD",
-     "source": 1
-    }
-   ],
-   "specs": {
-    "battery_kwh": 100,
-    "battery_kwh_type": "unknown",
-    "range_km": 320,
-    "range_cycle": "maker",
-    "dc_kw": null,
-    "ac_kw": null,
-    "power_kw": null,
-    "length_mm": null,
-    "width_mm": null,
-    "height_mm": null,
-    "seats": null,
-    "berths": 4,
-    "weight_kg": null,
-    "payload_kg": null,
-    "heating": "Heat pump (Touring/Adventure)",
-    "kitchen": "Nomad: multifunction kitchen with two-burner induction hob; Touring: swivelling outdoor kitchen",
-    "v2l": null,
-    "tow_kg": null,
-    "heating_fuel": "electric",
-    "cooking_fuel": "electric",
-    "fossil_variants": true
-   },
-   "spec_sources": {
-    "battery_kwh": 0,
-    "range_km": 0,
-    "berths": 0,
-    "heating": 0,
-    "kitchen": 0,
-    "heating_fuel": 0,
-    "cooking_fuel": 2
-   },
-   "highlights": [
-    "Three conversion levels: Nomad (kitchen, pop-top optional), Touring, Adventure (pop-top standard according to Autozeitung)",
-    "Sleeper bench 1.45 x 2.03 m",
-    "Touring and Adventure with heat pump"
-   ],
-   "caveats": [
-    "Prices from 2023/2024, not confirmed by the converter (tonke.nl unreachable on 1 Nov 2026)",
-    "Nomad 'just under €88,000' (2023) vs. from €87,964 (2024); price excl./incl. VAT not stated",
-    "100 kWh and 320 km are quoted as 'should be possible'; WLTP not stated; Mercedes EQV 300 otherwise lists 90 kWh",
-    "EQV is being replaced by the VLE (production start mid-2026)"
-   ],
-   "sources": [
-    {
-     "url": "https://www.promobil.de/neuheiten/tonke-eqv-e-campervan/",
-     "title": "Tonke EQV Touring und Adventure (2023): Elektro-Camper",
-     "publisher": "promobil",
-     "date": "2023-07-26"
-    },
-    {
-     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-campervans-ueberblick/",
-     "title": "Elektro-Campervans mit Mercedes-EQV-Basis im Überblick",
-     "publisher": "promobil",
-     "date": "2024-02-01"
-    },
-    {
-     "url": "https://www.tonke.eu/modellen/tonke-eqv/",
-     "title": "Tonke EQV",
-     "publisher": "Tonke",
-     "date": null
-    }
-   ],
-   "last_checked": "2026-11-02",
-   "verification": {
-    "checked": "2026-11-01",
-    "state": "stale"
-   },
-   "kind": "camper",
-   "is_conv": false,
-   "own_vehicle": false,
-   "fossil_free": true
   },
   {
    "id": "nissan-interstar-e-eifelland-relax",
@@ -2585,109 +2444,6 @@
    "fossil_free": null
   },
   {
-   "id": "kia-pv5-sussex-campervans",
-   "name": "Sussex Campervans Kingfisher",
-   "converter": {
-    "name": "Sussex Campervans",
-    "country": "GB",
-    "url": "https://www.sussexcampervans.com"
-   },
-   "factory": false,
-   "base": {
-    "make": "Kia",
-    "model": "PV5 Cargo",
-    "variant": "Long Range 71.2 kWh"
-   },
-   "drivetrain": "bev",
-   "body": "pop-top",
-   "status_overall": "announced",
-   "markets": [
-    {
-     "market": "GB",
-     "status": "announced",
-     "price": {
-      "amount": 68995,
-      "currency": "GBP",
-      "incl_vat": null,
-      "from": true,
-      "as_of": "2026-04-16"
-     },
-     "deliveries": null,
-     "steering": "RHD",
-     "source": 0
-    }
-   ],
-   "specs": {
-    "battery_kwh": 71.2,
-    "battery_kwh_type": "unknown",
-    "range_km": 415,
-    "range_cycle": "WLTP",
-    "dc_kw": null,
-    "ac_kw": null,
-    "power_kw": null,
-    "length_mm": null,
-    "width_mm": null,
-    "height_mm": null,
-    "seats": null,
-    "berths": null,
-    "weight_kg": null,
-    "payload_kg": null,
-    "heating": null,
-    "kitchen": "dual-hob induction cooker, 50-L fridge/freezer, microwave",
-    "v2l": true,
-    "tow_kg": null,
-    "cooking_fuel": "electric"
-   },
-   "spec_sources": {
-    "battery_kwh": 0,
-    "range_km": 0,
-    "kitchen": 0,
-    "v2l": 0,
-    "cooking_fuel": 2
-   },
-   "highlights": [
-    "Dual-hob induction cooker, microwave and 50-L fridge/freezer powered via vehicle-to-load",
-    "Pop-up roof bed suitable for a single adult or two children",
-    "WLTP rated 258 miles (415 km) for the base van with the 71-kWh battery"
-   ],
-   "caveats": [
-    "Price is Sussex's 'estimated base price' (New Atlas); VAT status not stated",
-    "No order, deposit or delivery information in the sources; buyers can only sign up for information",
-    "Sussex website was not reachable during the check",
-    "The 430-mile (about 692 km, Guinness) record comes from the base van, not the camper",
-    "Heating, dimensions and berths not stated; New Atlas gives 416 km WLTP in a second article"
-   ],
-   "sources": [
-    {
-     "url": "https://newatlas.com/campervans/kia-pv5-kingfisher-camper-van/",
-     "title": "Sussex Kingfisher PV5 camper van",
-     "publisher": "New Atlas",
-     "date": "2026-04-16"
-    },
-    {
-     "url": "https://newatlas.com/campervans/kia-pv5-pop-up-camper-sussex/",
-     "title": "Kia PV5 pop-up camper (Sussex)",
-     "publisher": "New Atlas",
-     "date": null
-    },
-    {
-     "url": "https://openvan.camp/en/news/builds/sussex-campervans-hypes-up-kia-pv5-camper",
-     "title": "Sussex Campervans hypes up Kia PV5 camper",
-     "publisher": "OpenVan.camp",
-     "date": null
-    }
-   ],
-   "last_checked": "2026-11-02",
-   "verification": {
-    "checked": "2026-11-01",
-    "state": "stale"
-   },
-   "kind": "camper",
-   "is_conv": false,
-   "own_vehicle": false,
-   "fossil_free": null
-  },
-  {
    "id": "kia-pv5-light-camper-factory",
    "name": "Kia PV5 Light Camper",
    "converter": {
@@ -3184,6 +2940,170 @@
    "fossil_free": null
   },
   {
+   "id": "citroen-e-spacetourer-poessl-e-vanster",
+   "name": "Pössl E-Vanster",
+   "converter": {
+    "name": "Pössl",
+    "country": "DE",
+    "url": null
+   },
+   "factory": false,
+   "base": {
+    "make": "Citroën",
+    "model": "ë-SpaceTourer",
+    "variant": "75 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "discontinued",
+   "markets": [
+    {
+     "market": "DE",
+     "status": "discontinued",
+     "price": {
+      "amount": 49999,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2025-11-18"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    },
+    {
+     "market": "CH",
+     "status": "discontinued",
+     "price": {
+      "amount": 60000,
+      "currency": "CHF",
+      "incl_vat": null,
+      "from": true,
+      "as_of": null
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 2
+    }
+   ],
+   "specs": {
+    "battery_kwh": 75,
+    "battery_kwh_type": "unknown",
+    "range_km": 298,
+    "range_cycle": "WLTP",
+    "dc_kw": 100,
+    "ac_kw": 11,
+    "power_kw": 100,
+    "length_mm": 4950,
+    "width_mm": 1920,
+    "height_mm": 1990,
+    "seats": 5,
+    "berths": null,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": null,
+    "kitchen": "230-V induction cooker",
+    "v2l": null,
+    "tow_kg": null,
+    "range_real_km": 190,
+    "range_real_note": "promobil first drive, early spring around 10 °C, hilly country roads; extrapolated by promobil from 155 km on an 80 % charge",
+    "cooking_fuel": "electric"
+   },
+   "spec_sources": {
+    "battery_kwh": 2,
+    "range_km": 1,
+    "ac_kw": 0,
+    "power_kw": 2,
+    "length_mm": 0,
+    "width_mm": 0,
+    "height_mm": 0,
+    "seats": 0,
+    "kitchen": 0,
+    "dc_kw": 0,
+    "range_real_km": 3,
+    "cooking_fuel": 5
+   },
+   "highlights": [
+    "Everyday van with modular CampBox, 5 seats / 2-4 berths",
+    "Based on Citroën ë-SpaceTourer, 75 kWh battery, 100 kW motor"
+   ],
+   "caveats": [
+    "Production suspended (Pössl by mail, Nov 2026) because of low demand; resumption open",
+    "Prices (€49,999 DE, CHF 60,000 CH) are historical (2025 and undated), not confirmed by Pössl",
+    "Promobil price from 2022 (€58,499; the same article also gives €55,999); VAT status of the €49,999 price not stated",
+    "Range 250-298 km WLTP depending on source; promobil 2022 test: 155 km test drive",
+    "AC 11 kW and DC 100 kW taken from charging times in the 2022 promobil test (about 7 h at 11 kW, about 45 min at 100 kW for 0-80 %)",
+    "Pop-top body not explicitly confirmed for the e-Vanster in the sources",
+    "50 kWh battery option listed earlier is not supported by the sources and was removed"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/poessl-e-vanster-als-elektro-campervan/",
+     "title": "Erste Probefahrt Pössl E-Vanster",
+     "publisher": "promobil",
+     "date": "2022-07-27"
+    },
+    {
+     "url": "https://www.autozeitung.de/poessl-vanster-preis-ausstattung-204871.html",
+     "title": "Pössl Vanster: Alle Details",
+     "publisher": "Auto Zeitung",
+     "date": "2025-11-18"
+    },
+    {
+     "url": "https://openvan.camp/en/news/industry/poessl-evanster-alltagsvan-und-reisemobil-nau",
+     "title": "Pössl E-Vanster (nau-Meldung)",
+     "publisher": "OpenVan.camp",
+     "date": null
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/poessl-e-vanster-als-elektro-campervan/",
+     "title": "Erste Probefahrt Pössl E-Vanster",
+     "publisher": "promobil",
+     "date": "2026"
+    },
+    {
+     "url": "https://www.autozeitung.de/poessl-vanster-preis-ausstattung-204871.html",
+     "title": "Pössl Vanster: Alle Details zum günstigen Allround-Camper",
+     "publisher": "Auto Zeitung",
+     "date": "2025-11-18"
+    },
+    {
+     "url": "https://www.autobild.de/artikel/poessl-e-vanster-test-21309563.html",
+     "title": "Pössl E-Vanster: Test",
+     "publisher": "Auto Bild",
+     "date": null
+    },
+    {
+     "kind": "mail",
+     "publisher": "Pössl",
+     "date": "2026-11-18"
+    }
+   ],
+   "last_checked": "2026-11-18",
+   "verification": {
+    "checked": "2026-11-18",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "sister": {
+    "name": "Pössl Vanster (Diesel)",
+    "fuel": "diesel",
+    "price": {
+     "amount": 44999,
+     "currency": "EUR",
+     "market": "DE",
+     "incl_vat": null,
+     "from": true,
+     "as_of": "2025-11-18"
+    },
+    "consumption_l_100km": null,
+    "source": 4
+   },
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": null
+  },
+  {
    "id": "toyota-proace-electric-campervan-co-eco-revolution",
    "name": "Campervan Co Eco Revolution",
    "converter": {
@@ -3275,6 +3195,118 @@
    "last_checked": "2026-11-02",
    "verification": {
     "checked": "2026-11-02",
+    "state": "verified"
+   },
+   "kind": "camper",
+   "is_conv": false,
+   "own_vehicle": false,
+   "fossil_free": true
+  },
+  {
+   "id": "mercedes-eqv-tonke",
+   "name": "Tonke EQV",
+   "converter": {
+    "name": "Tonke",
+    "country": "NL",
+    "url": "https://www.tonke.eu/modellen/tonke-eqv/"
+   },
+   "factory": false,
+   "base": {
+    "make": "Mercedes-Benz",
+    "model": "EQV 300",
+    "variant": "90 kWh"
+   },
+   "drivetrain": "bev",
+   "body": "pop-top",
+   "status_overall": "discontinued",
+   "markets": [
+    {
+     "market": "EU",
+     "status": "discontinued",
+     "price": {
+      "amount": 87964,
+      "currency": "EUR",
+      "incl_vat": null,
+      "from": true,
+      "as_of": "2024-02-01"
+     },
+     "deliveries": null,
+     "steering": "LHD",
+     "source": 1
+    }
+   ],
+   "specs": {
+    "battery_kwh": 100,
+    "battery_kwh_type": "unknown",
+    "range_km": 320,
+    "range_cycle": "maker",
+    "dc_kw": null,
+    "ac_kw": null,
+    "power_kw": null,
+    "length_mm": null,
+    "width_mm": null,
+    "height_mm": null,
+    "seats": null,
+    "berths": 4,
+    "weight_kg": null,
+    "payload_kg": null,
+    "heating": "Heat pump (Touring/Adventure)",
+    "kitchen": "Nomad: multifunction kitchen with two-burner induction hob; Touring: swivelling outdoor kitchen",
+    "v2l": null,
+    "tow_kg": null,
+    "heating_fuel": "electric",
+    "cooking_fuel": "electric",
+    "fossil_variants": true
+   },
+   "spec_sources": {
+    "battery_kwh": 0,
+    "range_km": 0,
+    "berths": 0,
+    "heating": 0,
+    "kitchen": 0,
+    "heating_fuel": 0,
+    "cooking_fuel": 2
+   },
+   "highlights": [
+    "Three conversion levels: Nomad (kitchen, pop-top optional), Touring, Adventure (pop-top standard according to Autozeitung)",
+    "Sleeper bench 1.45 x 2.03 m",
+    "Touring and Adventure with heat pump"
+   ],
+   "caveats": [
+    "Tonke no longer builds the EQV as a new vehicle since the launch of the new VW Transporter (T7); one last EQV is sold as a used vehicle (Tonke by mail, Nov 2026)",
+    "Prices from 2023/2024, not confirmed by the converter (tonke.nl unreachable on 1 Nov 2026)",
+    "Nomad 'just under €88,000' (2023) vs. from €87,964 (2024); price excl./incl. VAT not stated",
+    "100 kWh and 320 km are quoted as 'should be possible'; WLTP not stated; Mercedes EQV 300 otherwise lists 90 kWh",
+    "EQV is being replaced by the VLE (production start mid-2026)"
+   ],
+   "sources": [
+    {
+     "url": "https://www.promobil.de/neuheiten/tonke-eqv-e-campervan/",
+     "title": "Tonke EQV Touring und Adventure (2023): Elektro-Camper",
+     "publisher": "promobil",
+     "date": "2023-07-26"
+    },
+    {
+     "url": "https://www.promobil.de/neuheiten/mercedes-benz-eqv-campervans-ueberblick/",
+     "title": "Elektro-Campervans mit Mercedes-EQV-Basis im Überblick",
+     "publisher": "promobil",
+     "date": "2024-02-01"
+    },
+    {
+     "url": "https://www.tonke.eu/modellen/tonke-eqv/",
+     "title": "Tonke EQV",
+     "publisher": "Tonke",
+     "date": null
+    },
+    {
+     "kind": "mail",
+     "publisher": "Tonke",
+     "date": "2026-11-18"
+    }
+   ],
+   "last_checked": "2026-11-18",
+   "verification": {
+    "checked": "2026-11-18",
     "state": "verified"
    },
    "kind": "camper",
@@ -3953,7 +3985,8 @@
    "caveats": [
     "Module price only, excluding VAT; the same article lists €66,374 for the fully converted bus",
     "Sources are from 2024; Tonke's own ID. Buzz page now shows the Trail and Explorer campers (long wheelbase) and no stand-alone module (checked 2 Nov 2026), so the module may no longer be sold separately",
-    "Installation time and module weight are not stated"
+    "Installation time and module weight are not stated",
+    "Tonke confirms by mail (Nov 2026) that the Buzz is still on sale; the stand-alone module itself was not mentioned"
    ],
    "sources": [
     {
@@ -3967,10 +4000,15 @@
      "title": "Fünf Camper-Umbauten: So wird der VW ID. Buzz zum Wohnmobil",
      "publisher": "Auto Zeitung",
      "date": "2024-11-01"
+    },
+    {
+     "kind": "mail",
+     "publisher": "Tonke",
+     "date": "2026-11-18"
     }
    ],
    "verification": {
-    "checked": "2026-11-02",
+    "checked": "2026-11-18",
     "state": "stale"
    },
    "kind": "kit",
@@ -3995,7 +4033,7 @@
     "kitchen": true,
     "tool_free": null
    },
-   "last_checked": "2026-11-02",
+   "last_checked": "2026-11-18",
    "is_conv": false,
    "own_vehicle": false,
    "fossil_free": null
